@@ -77,7 +77,13 @@ class ConfidenceRegularizationTrainer(Trainer):
     Higher entropy means the model is less overconfident.
     """
 
-    def __init__(self, lambda_conf=0.05, use_confidence_regularization=False, *args, **kwargs):
+    def __init__(
+        self,
+        lambda_conf=0.05,
+        use_confidence_regularization=False,
+        *args,
+        **kwargs,
+    ):
         super().__init__(*args, **kwargs)
         self.lambda_conf = lambda_conf
         self.use_confidence_regularization = use_confidence_regularization
@@ -167,8 +173,18 @@ def compute_metrics(eval_pred):
     return {
         "accuracy": accuracy_score(labels, predictions),
         "macro_f1": f1_score(labels, predictions, average="macro"),
-        "precision": precision_score(labels, predictions, average="macro", zero_division=0),
-        "recall": recall_score(labels, predictions, average="macro", zero_division=0),
+        "precision": precision_score(
+            labels,
+            predictions,
+            average="macro",
+            zero_division=0,
+        ),
+        "recall": recall_score(
+            labels,
+            predictions,
+            average="macro",
+            zero_division=0,
+        ),
     }
 
 
@@ -203,14 +219,14 @@ def train_roberta(
     train_dataset = TextDataset(
         texts=train_df["text"],
         labels=train_df["label"],
-        processing_class=tokenizer,
+        tokenizer=tokenizer,
         max_len=MAX_LEN,
     )
 
     val_dataset = TextDataset(
         texts=val_df["text"],
         labels=val_df["label"],
-        processing_class=tokenizer,
+        tokenizer=tokenizer,
         max_len=MAX_LEN,
     )
 
