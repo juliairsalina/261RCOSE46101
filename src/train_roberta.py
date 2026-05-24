@@ -219,7 +219,7 @@ def train_roberta(
 
     training_args = TrainingArguments(
         output_dir=str(output_model_dir),
-        evaluation_strategy="epoch",
+        eval_strategy="epoch",
         save_strategy="epoch",
         learning_rate=LEARNING_RATE,
         per_device_train_batch_size=BATCH_SIZE,
