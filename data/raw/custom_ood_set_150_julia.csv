@@ -1,0 +1,151 @@
+id,text,category,gold_label,note
+OOD_001,I am not going to hurt myself; I just need some rest.,negation,non-risky,Negated self-harm intent
+OOD_002,"Please don't break anything, I only want to talk.",negation,non-risky,Negated violent action
+OOD_003,I won't burn it; I was just angry for a second.,negation,non-risky,Negated destructive intent
+OOD_004,"I'm not ending anything tonight, I only feel overwhelmed.",negation,non-risky,Negated current intent
+OOD_005,"No, I did not mean I want to disappear forever.",negation,non-risky,Negated literal meaning
+OOD_006,I would never do that to myself.,negation,non-risky,Explicit rejection of harm
+OOD_007,I am not planning to do anything dangerous.,negation,non-risky,Negated plan
+OOD_008,"Don't worry, I'm not going to act on those thoughts.",negation,non-risky,Negated action
+OOD_009,I am not trying to crash my car; I'm just tired.,negation,non-risky,Negated dangerous action
+OOD_010,I won't do anything stupid tonight.,negation,non-risky,Negated harmful action
+OOD_011,"I'm not saying I want to die, I'm saying I'm exhausted.",negation,non-risky,Negated intent with figurative language
+OOD_012,I do not want to hurt anyone.,negation,non-risky,Negated interpersonal harm
+OOD_013,I am not going to jump; I only need some space.,negation,non-risky,Negated act
+OOD_014,I never said I would hurt myself.,negation,non-risky,Negated prior claim
+OOD_015,I am not about to lose control.,negation,non-risky,Negated escalation
+OOD_016,I'm not going to cut myself; I just need help calming down.,negation,non-risky,Negated self-harm
+OOD_017,I don't want to destroy anything.,negation,non-risky,Negated destruction
+OOD_018,I am not thinking of doing it anymore.,negation,non-risky,Negated current ideation
+OOD_019,I won't take anything tonight.,negation,non-risky,Negated ingestion action
+OOD_020,I am not trying to disappear; I just want a quiet day offline.,negation,non-risky,Negated literal disappearance
+OOD_021,"Actually, I am going to hurt myself tonight.",negation,risky,Direct current intent
+OOD_022,No one can stop me; I'm going to do it.,negation,risky,Direct future intent
+OOD_023,"I am not joking this time, I will end it tonight.",negation,risky,Negation present but intent is affirmed
+OOD_024,Don't call me; I am going through with it.,negation,risky,Current actionable intent
+OOD_025,I can't promise I won't do something tonight.,negation,risky,Implied possible imminent action
+OOD_026,I'm not safe to be alone right now.,negation,risky,Current danger statement
+OOD_027,I don't think I can stop myself tonight.,negation,risky,Loss of control / imminent risk
+OOD_028,I'm not backing out; I'm going to hurt him.,negation,risky,Affirmed violence despite negation
+OOD_029,"I am not asking for help, I am done.",negation,risky,Finality / acute risk
+OOD_030,I won't wait until tomorrow; I'm doing it now.,negation,risky,Imminent intent
+OOD_031,"I felt like giving up last year, but I'm doing better now.",temporal,non-risky,Past-only distress
+OOD_032,"Back then I wanted everything to stop, not anymore.",temporal,non-risky,Past state resolved
+OOD_033,"I used to think about hurting myself, but I don't now.",temporal,non-risky,"Past ideation, no current intent"
+OOD_034,"Yesterday I said something dramatic, but I was venting.",temporal,non-risky,Past statement reframed
+OOD_035,"There was a time when I wanted to disappear, but that passed.",temporal,non-risky,Past-only desire
+OOD_036,"Months ago I felt hopeless, but I'm safe today.",temporal,non-risky,Current safety marker
+OOD_037,"Earlier this week I was spiraling, but I'm calmer now.",temporal,non-risky,Resolved recent distress
+OOD_038,I used to make scary jokes like that in high school.,temporal,non-risky,Past figurative behavior
+OOD_039,"Last night I said I would crash, but I only meant sleep.",temporal,non-risky,Past figurative use
+OOD_040,"At one point I wanted to break everything, but not now.",temporal,non-risky,Past anger
+OOD_041,Before therapy I had those thoughts a lot.,temporal,non-risky,Historical reference
+OOD_042,"In 2023 I felt completely done with life, but I'm recovering.",temporal,non-risky,Past severe distress
+OOD_043,"A few months ago I talked like that online, not today.",temporal,non-risky,Past language only
+OOD_044,"Earlier today I felt awful, but I don't want to act on it now.",temporal,non-risky,Current non-action
+OOD_045,"I used to say I wanted to vanish, but it was how I vented.",temporal,non-risky,Past figurative phrasing
+OOD_046,I am going to hurt myself tonight.,temporal,risky,Current/future intent
+OOD_047,Later tonight I'm ending this.,temporal,risky,Future imminent intent
+OOD_048,Tomorrow I plan to do something to myself.,temporal,risky,Future plan
+OOD_049,"After everyone falls asleep, I'm going through with it.",temporal,risky,Time-linked plan
+OOD_050,This evening I will take all of them.,temporal,risky,Timed ingestion plan
+OOD_051,Tonight is the night I do it.,temporal,risky,Imminent timing
+OOD_052,In an hour I'm going to crash the car on purpose.,temporal,risky,Specific near-future plan
+OOD_053,"When I get home, I'm going to cut myself.",temporal,risky,Conditional future action
+OOD_054,By midnight I won't be here anymore.,temporal,risky,Timed self-harm implication
+OOD_055,"As soon as they leave, I'm doing it.",temporal,risky,Immediate future action
+OOD_056,I'm waiting until tomorrow morning to end it.,temporal,risky,Planned future action
+OOD_057,"Next time he touches my stuff, I'll hurt him.",temporal,risky,Conditional future violence
+OOD_058,Later today I'm going to make it stop for good.,temporal,risky,Current actionable future intent
+OOD_059,"Before sunrise, I'm done.",temporal,risky,Imminent finality
+OOD_060,This weekend I'm finally going through with my plan.,temporal,risky,Future plan
+OOD_061,I'm not thinking that way anymore.,negation_temporal,non-risky,Negation + temporal resolution
+OOD_062,I didn't mean it like that yesterday.,negation_temporal,non-risky,Past reinterpretation
+OOD_063,"I was struggling before, but I'm not now.",negation_temporal,non-risky,Past distress resolved
+OOD_064,I am no longer planning anything harmful.,negation_temporal,non-risky,No current plan
+OOD_065,I never said I would do it today.,negation_temporal,non-risky,Negated present intent
+OOD_066,I wasn't serious earlier.,negation_temporal,non-risky,Past statement negated
+OOD_067,I'm not going to act on what I felt last night.,negation_temporal,non-risky,Negated current action after past distress
+OOD_068,I don't feel that way anymore after talking to my sister.,negation_temporal,non-risky,No longer current risk
+OOD_069,I wasn't trying to scare anyone yesterday.,negation_temporal,non-risky,Past statement context
+OOD_070,I won't be doing anything tonight.,negation_temporal,non-risky,Negated imminent action
+OOD_071,"I am not planning to hurt myself now, even though I did think about it before.",negation_temporal,non-risky,Past thoughts but no current plan
+OOD_072,I didn't want to die today; I was talking about last year.,negation_temporal,non-risky,Temporal clarification
+OOD_073,Not anymore—those thoughts were from months ago.,negation_temporal,non-risky,Past-only distress
+OOD_074,I'm not going to disappear tonight; I just need to log off.,negation_temporal,non-risky,Negated present action
+OOD_075,I don't want to do anything now like I did before.,negation_temporal,non-risky,Past vs present
+OOD_076,"I can't keep pretending; I'm doing it tonight, not tomorrow.",negation_temporal,risky,Negation + imminent intent
+OOD_077,I'm not waiting another day to end this.,negation_temporal,risky,Negation used to intensify timing
+OOD_078,"I wasn't serious before, but I am now.",negation_temporal,risky,"Past joking, current intent"
+OOD_079,Not later—I'm doing it right now.,negation_temporal,risky,Immediate action
+OOD_080,I don't want help anymore; tonight I'm done.,negation_temporal,risky,Current finality
+OOD_081,"I wasn't going to do it yesterday, but I am tonight.",negation_temporal,risky,Shift to current intent
+OOD_082,I'm not safe now even if I was okay this morning.,negation_temporal,risky,Current danger with time contrast
+OOD_083,I can't promise I won't act tonight.,negation_temporal,risky,Imminent uncertainty
+OOD_084,"I wasn't ready before, but I am now.",negation_temporal,risky,Current readiness to act
+OOD_085,I'm no longer trying to stop myself.,negation_temporal,risky,Disinhibition
+OOD_086,"I didn't think I'd do this today, but here we are.",negation_temporal,risky,Current action framing
+OOD_087,I'm not calming down this time; I'm going through with it later.,negation_temporal,risky,Future action
+OOD_088,"I wasn't planning it last week, but tonight I am.",negation_temporal,risky,Current plan
+OOD_089,I don't care anymore; by tomorrow it'll be over.,negation_temporal,risky,Timed finality
+OOD_090,"Not next month, not next week—today.",negation_temporal,risky,Strong current timing
+OOD_091,This homework is killing me.,figurative,non-risky,Idiomatic expression
+OOD_092,My phone is dead again.,figurative,non-risky,Device state
+OOD_093,I'm going to crash the second I get home.,figurative,non-risky,Sleep idiom
+OOD_094,That exam destroyed me.,figurative,non-risky,Figurative difficulty
+OOD_095,This spicy ramen burned my mouth.,figurative,non-risky,Literal harmless injury
+OOD_096,My schedule is murder this week.,figurative,non-risky,Idiomatic stress
+OOD_097,I got roasted in the group chat.,figurative,non-risky,Slang
+OOD_098,That workout nearly killed my legs.,figurative,non-risky,Figurative soreness
+OOD_099,I could scream over this internet connection.,figurative,non-risky,Frustration idiom
+OOD_100,This traffic makes me want to die.,figurative,non-risky,Hyperbole
+OOD_101,The price of groceries is criminal.,figurative,non-risky,Figurative complaint
+OOD_102,That bug is driving me insane.,figurative,non-risky,Hyperbole
+OOD_103,I'm dead tired after that shift.,figurative,non-risky,Tiredness idiom
+OOD_104,This app keeps crashing on me.,figurative,non-risky,Software crash
+OOD_105,The concert absolutely blew my mind.,figurative,non-risky,Positive figurative
+OOD_106,I feel like I might do something bad tonight.,figurative,risky,Vague but present harmful possibility
+OOD_107,I want to make myself bleed.,figurative,risky,Direct self-harm intent
+OOD_108,I keep thinking about ending it for real.,figurative,risky,Explicit harmful meaning
+OOD_109,I'm going to hurt him if he comes back.,figurative,risky,Direct threat
+OOD_110,I want to take a bunch of pills and sleep forever.,figurative,risky,Explicit self-harm plan
+OOD_111,I think tonight I might finally do it.,figurative,risky,Present/future intent
+OOD_112,I have the blade next to me and I want to use it.,figurative,risky,Current means + intent
+OOD_113,I want to disappear for good.,figurative,risky,Finality expression
+OOD_114,I'm going to smash everything and then hurt myself.,figurative,risky,Escalating dangerous action
+OOD_115,I cannot stop picturing myself jumping.,figurative,risky,Current self-harm ideation
+OOD_116,"If he shows up, I will stab him.",figurative,risky,Explicit threat
+OOD_117,I'm looking at the pills right now.,figurative,risky,Current access and risk context
+OOD_118,I want to make it all stop tonight.,figurative,risky,Current intent
+OOD_119,I might cut tonight.,figurative,risky,Present/future self-harm
+OOD_120,I am done pretending I'm safe.,figurative,risky,Current danger
+OOD_121,I'm so done with everything.,ambiguous,non-risky,Ambiguous frustration without actionable intent
+OOD_122,I don't know anymore.,ambiguous,non-risky,Vague distress
+OOD_123,Everything feels off lately.,ambiguous,non-risky,General malaise
+OOD_124,I just want to disappear for a while.,ambiguous,non-risky,Temporary escape phrasing
+OOD_125,Maybe I should shut the world out for a bit.,ambiguous,non-risky,Withdrawal without harm
+OOD_126,I'm tired of being here today.,ambiguous,non-risky,Ambiguous but not explicit intent
+OOD_127,Nothing feels real right now.,ambiguous,non-risky,Dissociation-like phrasing
+OOD_128,I want all the noise to stop.,ambiguous,non-risky,Non-specific overwhelm
+OOD_129,I can't deal with people right now.,ambiguous,non-risky,Social withdrawal
+OOD_130,I need everything to pause.,ambiguous,non-risky,Non-specific overwhelm
+OOD_131,I wish I could vanish for a weekend.,ambiguous,non-risky,Temporary escape
+OOD_132,I want to be left alone for a long time.,ambiguous,non-risky,Isolation request
+OOD_133,I'm exhausted by all of this.,ambiguous,non-risky,Fatigue statement
+OOD_134,Part of me wants to run away from everything.,ambiguous,non-risky,Escape language
+OOD_135,I hate waking up to the same problems.,ambiguous,non-risky,Hopelessness but no explicit action
+OOD_136,I don't want to be here anymore.,ambiguous,risky,Common high-risk phrase
+OOD_137,Everyone would be better off without me.,ambiguous,risky,Burden statement
+OOD_138,I can't do this anymore and I mean it.,ambiguous,risky,Potential current intent
+OOD_139,I wish I could just go away forever.,ambiguous,risky,Finality
+OOD_140,There is no point in me staying.,ambiguous,risky,Hopelessness/finality
+OOD_141,I want it all to stop for good.,ambiguous,risky,Finality + intent
+OOD_142,I think people would be relieved if I disappeared.,ambiguous,risky,Burden/disappearance
+OOD_143,I'm not sure I'll make it through tonight.,ambiguous,risky,Imminent risk
+OOD_144,I don't trust myself right now.,ambiguous,risky,Current danger
+OOD_145,I don't think I should be alone tonight.,ambiguous,risky,Acute risk indicator
+OOD_146,I want out permanently.,ambiguous,risky,Permanent escape phrasing
+OOD_147,I can't promise I'll be safe tonight.,ambiguous,risky,Current risk
+OOD_148,I'm saying goodbye in my own way.,ambiguous,risky,Farewell implication
+OOD_149,This feels like the end for me.,ambiguous,risky,End/finality
+OOD_150,I don't see myself being here tomorrow.,ambiguous,risky,Future absence implication
