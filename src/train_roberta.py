@@ -203,14 +203,14 @@ def train_roberta(
     train_dataset = TextDataset(
         texts=train_df["text"],
         labels=train_df["label"],
-        tokenizer=tokenizer,
+        processing_class=tokenizer,
         max_len=MAX_LEN,
     )
 
     val_dataset = TextDataset(
         texts=val_df["text"],
         labels=val_df["label"],
-        tokenizer=tokenizer,
+        processing_class=tokenizer,
         max_len=MAX_LEN,
     )
 
@@ -240,7 +240,7 @@ def train_roberta(
         args=training_args,
         train_dataset=train_dataset,
         eval_dataset=val_dataset,
-        tokenizer=tokenizer,
+        processing_class=tokenizer,
         compute_metrics=compute_metrics,
         lambda_conf=lambda_conf,
         use_confidence_regularization=confidence_regularization,
