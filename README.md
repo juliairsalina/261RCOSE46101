@@ -25,3 +25,29 @@ We evaluate whether RoBERTa relies too much on shortcut-trigger words such as "d
 - `results/`: metrics, predictions, plots
 - `saved_models/`: trained models
 # shortcut-learning-risky-intent
+
+## Hypotheses
+
+### H1: Shortcut Learning in Baseline
+
+The RoBERTa baseline is expected to perform well on the in-distribution test set but worse on the OOD test set because it may rely on shortcut-trigger words such as `die`, `kill`, `cut`, and `jump`.
+
+### H2: Counterfactual Augmentation
+
+Counterfactual augmentation is expected to improve OOD performance by teaching the model that the same keyword can have different labels depending on context.
+
+### H3: Keyword Masking
+
+Keyword masking is expected to reduce shortcut reliance by forcing the model to use surrounding context instead of only focusing on risky keywords.
+
+### H4: Confidence Regularization
+
+Confidence regularization is expected to reduce overconfident wrong predictions on OOD examples.
+
+### H5: Full Method
+
+The full model, `RoBERTa-CF-KM-CR`, is expected to achieve better OOD Macro-F1, a smaller ID-OOD gap, lower keyword sensitivity, and fewer confident wrong predictions than the baseline.
+
+### H6: MC Dropout
+
+MC Dropout is expected to help analyze uncertainty on OOD examples, but it is used as an inference-time uncertainty baseline, not as the main mitigation method.
