@@ -1,6 +1,5 @@
-import json
+import argparse
 import re
-from pathlib import Path
 
 import numpy as np
 import pandas as pd
@@ -8,27 +7,32 @@ import torch
 
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
-from src.config import MAX_LEN, OOD_PATH
+from src.config import (
+    MAX_LEN,
+    OOD_PATH,
+    RESULTS_DIR,
+    MODEL_DIR,
+)
 
 
-SAVED_MODELS_DIR = Path("saved_models")
-OUTPUT_DIR = Path("results") / "shortcut_metrics"
-
-BASELINE_EXPERIMENT_ID = "E1"
-FINAL_EXPERIMENT_ID = "E5"
+OUTPUT_DIR = RESULTS_DIR / "shortcut_metrics"
 
 
-def load_ood_data():
+def load_ood_data() -> pd.DataFrame:
     df = pd.read_csv(OOD_PATH)
 
     required_columns = ["text", "keyword", "label"]
     missing_columns = [col for col in required_columns if col not in df.columns]
 
     if missing_columns:
-        raise ValueError(f"Missing columns in OOD data: {missing_columns}")
+        raise ValueError(
+            f"Missing columns in OOD data: {missing_columns}\n"
+            f"Available columns: {list(df.columns)}"
+        )
 
     df = df.dropna(subset=["text", "label"]).copy()
     df["text"] = df["text"].astype(str)
+    df["keyword"] = df["keyword"].astype(str)
     df["label"] = df["label"].astype(int)
 
     return df
@@ -38,6 +42,7 @@ def mask_keyword(text, keyword, mask_token="[MASK]"):
     if pd.isna(keyword):
         return text
 
+    text = str(text)
     keyword = str(keyword).strip()
 
     if keyword == "":
@@ -52,7 +57,7 @@ def mask_keyword(text, keyword, mask_token="[MASK]"):
 
 
 def load_model(experiment_id, device):
-    model_path = SAVED_MODELS_DIR / experiment_id
+    model_path = MODEL_DIR / experiment_id
 
     if not model_path.exists():
         raise FileNotFoundError(
@@ -62,6 +67,7 @@ def load_model(experiment_id, device):
 
     tokenizer = AutoTokenizer.from_pretrained(model_path)
     model = AutoModelForSequenceClassification.from_pretrained(model_path)
+
     model.to(device)
     model.eval()
 
@@ -132,8 +138,9 @@ def evaluate_keyword_sensitivity_for_model(experiment_id, df, device):
             "prediction_flip": prediction_flip,
         }
 
-        if "category" in df.columns:
-            result["category"] = row["category"]
+        for col in ["id", "category"]:
+            if col in df.columns:
+                result[col] = row[col]
 
         rows.append(result)
 
@@ -144,14 +151,11 @@ def summarize_shortcut_metrics(details_df):
     summaries = []
 
     for experiment_id, group in details_df.groupby("experiment_id"):
-        keyword_sensitivity_score = group["absolute_probability_change"].mean()
-        prediction_flip_rate = group["prediction_flip"].mean()
-
         summaries.append(
             {
                 "experiment_id": experiment_id,
-                "keyword_sensitivity_score": keyword_sensitivity_score,
-                "prediction_flip_rate": prediction_flip_rate,
+                "keyword_sensitivity_score": group["absolute_probability_change"].mean(),
+                "prediction_flip_rate": group["prediction_flip"].mean(),
                 "num_examples": len(group),
             }
         )
@@ -159,7 +163,7 @@ def summarize_shortcut_metrics(details_df):
     return pd.DataFrame(summaries)
 
 
-def main():
+def run_shortcut_metrics(experiment_ids):
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -169,13 +173,15 @@ def main():
 
     all_details = []
 
-    for experiment_id in [BASELINE_EXPERIMENT_ID, FINAL_EXPERIMENT_ID]:
+    for experiment_id in experiment_ids:
         print(f"\nRunning shortcut sensitivity for {experiment_id}...")
+
         details_df = evaluate_keyword_sensitivity_for_model(
             experiment_id=experiment_id,
             df=ood_df,
             device=device,
         )
+
         all_details.append(details_df)
 
     combined_details_df = pd.concat(all_details, ignore_index=True)
@@ -192,6 +198,24 @@ def main():
 
     print("\nShortcut summary:")
     print(summary_df)
+
+
+def parse_args():
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument(
+        "--experiment_ids",
+        nargs="+",
+        default=["E1", "E10"],
+        help="Experiment IDs to compare. Default: E1 E10",
+    )
+
+    return parser.parse_args()
+
+
+def main():
+    args = parse_args()
+    run_shortcut_metrics(experiment_ids=args.experiment_ids)
 
 
 if __name__ == "__main__":
