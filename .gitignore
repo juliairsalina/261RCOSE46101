@@ -9,3 +9,4 @@ venv/
 saved_models/
 
 .DS_Store
+results_first/
