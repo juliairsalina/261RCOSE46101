@@ -10,7 +10,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 # Data Paths
 # =========================
 
-RAW_DATA_PATH = PROJECT_ROOT / "data" / "raw" / "data/raw/datasetnad_latest.csv"
+RAW_DATA_PATH = PROJECT_ROOT / "data" / "raw" / "datasetnad_latest.csv"
 RAW_OOD_PATH = PROJECT_ROOT / "data" / "raw" / "custom_ood_set_150_julia.csv"
 
 PROCESSED_DIR = PROJECT_ROOT / "data" / "processed"
