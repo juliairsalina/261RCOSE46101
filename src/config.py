@@ -10,7 +10,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 # Data Paths
 # =========================
 
-RAW_DATA_PATH = PROJECT_ROOT / "data" / "raw" / "dataset_nad.xlsx"
+RAW_DATA_PATH = PROJECT_ROOT / "data" / "raw" / "datasetma.xlsx"
 RAW_OOD_PATH = PROJECT_ROOT / "data" / "raw" / "custom_ood_set_150_julia.csv"
 
 PROCESSED_DIR = PROJECT_ROOT / "data" / "processed"
@@ -50,7 +50,7 @@ MODEL_NAME = ROBERTA_MODEL_NAME
 
 MAX_LEN = 128
 BATCH_SIZE = 16
-EPOCHS = 10
+EPOCHS = 3
 LEARNING_RATE = 2e-5
 SEED = 42
 
