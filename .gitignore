@@ -1,12 +1,40 @@
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Jupyter
 .ipynb_checkpoints/
 
+# Environment files
 .env
+.env.*
+!.env.example
+
+# Virtual environments
 .venv/
 venv/
+env/
 
-saved_models/
-
+# macOS
 .DS_Store
+
+# Model outputs
+saved_models/
+models/
+checkpoint-*/
+
+# Results / generated outputs
+results/
 results_first/
+
+# Processed generated data
+data/processed/
+
+# Hugging Face / cache
+.cache/
+hf_cache/
+
+# Logs
+*.log
