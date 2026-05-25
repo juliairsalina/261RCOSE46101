@@ -1,0 +1,151 @@
+text,true_label,predicted_label,risky_prob,correct,category
+I am not going to hurt myself; I just need some rest.,0,1,0.5269798598475375,False,negation
+"Please don't break anything, I only want to talk.",0,1,0.7602663890851551,False,negation
+I won't burn it; I was just angry for a second.,0,1,0.5765587775624824,False,negation
+"I'm not ending anything tonight, I only feel overwhelmed.",0,1,0.84223696562064,False,negation
+"No, I did not mean I want to disappear forever.",0,1,0.7547984844748403,False,negation
+I would never do that to myself.,0,0,0.3855420289017089,True,negation
+I am not planning to do anything dangerous.,0,1,0.6072288870496422,False,negation
+"Don't worry, I'm not going to act on those thoughts.",0,1,0.767419935921031,False,negation
+I am not trying to crash my car; I'm just tired.,0,1,0.5223315721757273,False,negation
+I won't do anything stupid tonight.,0,1,0.6658131391277426,False,negation
+"I'm not saying I want to die, I'm saying I'm exhausted.",0,1,0.7867811889133648,False,negation
+I do not want to hurt anyone.,0,1,0.8159209035909024,False,negation
+I am not going to jump; I only need some space.,0,0,0.4015084282853448,True,negation
+I never said I would hurt myself.,0,1,0.8878199512542406,False,negation
+I am not about to lose control.,0,0,0.44028475524314503,True,negation
+I'm not going to cut myself; I just need help calming down.,0,0,0.24789247495567115,True,negation
+I don't want to destroy anything.,0,1,0.8654910053463122,False,negation
+I am not thinking of doing it anymore.,0,1,0.6964843610971181,False,negation
+I won't take anything tonight.,0,1,0.6658131391277426,False,negation
+I am not trying to disappear; I just want a quiet day offline.,0,1,0.5797152719316484,False,negation
+"Actually, I am going to hurt myself tonight.",1,1,0.7873704208658238,True,negation
+No one can stop me; I'm going to do it.,1,1,0.8540765245631404,True,negation
+"I am not joking this time, I will end it tonight.",1,1,0.7855220426635242,True,negation
+Don't call me; I am going through with it.,1,1,0.8216488591557226,True,negation
+I can't promise I won't do something tonight.,1,1,0.6658131391277426,True,negation
+I'm not safe to be alone right now.,1,1,0.597419796599316,True,negation
+I don't think I can stop myself tonight.,1,1,0.8820388878704076,True,negation
+I'm not backing out; I'm going to hurt him.,1,1,0.7492069758631607,True,negation
+"I am not asking for help, I am done.",1,0,0.3752519478934848,False,negation
+I won't wait until tomorrow; I'm doing it now.,1,0,0.43568748189268947,False,negation
+"I felt like giving up last year, but I'm doing better now.",0,0,0.4828511392915748,True,temporal
+"Back then I wanted everything to stop, not anymore.",0,1,0.7079668894916202,False,temporal
+"I used to think about hurting myself, but I don't now.",0,1,0.6354393048548587,False,temporal
+"Yesterday I said something dramatic, but I was venting.",0,1,0.6377875582722806,False,temporal
+"There was a time when I wanted to disappear, but that passed.",0,0,0.39186600854306636,True,temporal
+"Months ago I felt hopeless, but I'm safe today.",0,0,0.4480997113176228,True,temporal
+"Earlier this week I was spiraling, but I'm calmer now.",0,0,0.30638545096616404,True,temporal
+I used to make scary jokes like that in high school.,0,1,0.682459088898356,False,temporal
+"Last night I said I would crash, but I only meant sleep.",0,1,0.6889847392511883,False,temporal
+"At one point I wanted to break everything, but not now.",0,1,0.538390523340236,False,temporal
+Before therapy I had those thoughts a lot.,0,1,0.5525759594023304,False,temporal
+"In 2023 I felt completely done with life, but I'm recovering.",0,1,0.5286718618015567,False,temporal
+"A few months ago I talked like that online, not today.",0,1,0.573443816982372,False,temporal
+"Earlier today I felt awful, but I don't want to act on it now.",0,1,0.5620064839994696,False,temporal
+"I used to say I wanted to vanish, but it was how I vented.",0,0,0.3478615972939189,True,temporal
+I am going to hurt myself tonight.,1,1,0.8183055179704014,True,temporal
+Later tonight I'm ending this.,1,1,0.5312318561363546,True,temporal
+Tomorrow I plan to do something to myself.,1,0,0.4271576737280481,False,temporal
+"After everyone falls asleep, I'm going through with it.",1,1,0.5494100753412919,True,temporal
+This evening I will take all of them.,1,0,0.42878601062190425,False,temporal
+Tonight is the night I do it.,1,1,0.6866877644388656,True,temporal
+In an hour I'm going to crash the car on purpose.,1,1,0.6480262933318937,True,temporal
+"When I get home, I'm going to cut myself.",1,0,0.32719931219358134,False,temporal
+By midnight I won't be here anymore.,1,1,0.5376606782483289,True,temporal
+"As soon as they leave, I'm doing it.",1,1,0.5303855554473621,True,temporal
+I'm waiting until tomorrow morning to end it.,1,1,0.6026878516693536,True,temporal
+"Next time he touches my stuff, I'll hurt him.",1,1,0.7941980341386269,True,temporal
+Later today I'm going to make it stop for good.,1,1,0.6357389679291273,True,temporal
+"Before sunrise, I'm done.",1,0,0.3095621843225733,False,temporal
+This weekend I'm finally going through with my plan.,1,0,0.41045463708996793,False,temporal
+I'm not thinking that way anymore.,0,1,0.8572402295404034,False,negation_temporal
+I didn't mean it like that yesterday.,0,0,0.4954293021022481,True,negation_temporal
+"I was struggling before, but I'm not now.",0,0,0.3855420289017089,True,negation_temporal
+I am no longer planning anything harmful.,0,1,0.5657743885801705,False,negation_temporal
+I never said I would do it today.,0,1,0.7014235533245337,False,negation_temporal
+I wasn't serious earlier.,0,0,0.3388732442346721,True,negation_temporal
+I'm not going to act on what I felt last night.,0,0,0.4524060829982988,True,negation_temporal
+I don't feel that way anymore after talking to my sister.,0,1,0.8273452522109326,False,negation_temporal
+I wasn't trying to scare anyone yesterday.,0,0,0.3476959124232296,True,negation_temporal
+I won't be doing anything tonight.,0,1,0.5889152535617183,False,negation_temporal
+"I am not planning to hurt myself now, even though I did think about it before.",0,1,0.8079456094348508,False,negation_temporal
+I didn't want to die today; I was talking about last year.,0,1,0.6596377004009558,False,negation_temporal
+Not anymore—those thoughts were from months ago.,0,1,0.6300195720213776,False,negation_temporal
+I'm not going to disappear tonight; I just need to log off.,0,0,0.33102330538048086,True,negation_temporal
+I don't want to do anything now like I did before.,0,1,0.8696714421777914,False,negation_temporal
+"I can't keep pretending; I'm doing it tonight, not tomorrow.",1,1,0.5689309098297759,True,negation_temporal
+I'm not waiting another day to end this.,1,1,0.6372557409886466,True,negation_temporal
+"I wasn't serious before, but I am now.",1,0,0.3722849030066118,False,negation_temporal
+Not later—I'm doing it right now.,1,0,0.3793889578043209,False,negation_temporal
+I don't want help anymore; tonight I'm done.,1,1,0.7812565917340054,True,negation_temporal
+"I wasn't going to do it yesterday, but I am tonight.",1,1,0.5879144341842493,True,negation_temporal
+I'm not safe now even if I was okay this morning.,1,0,0.47998453451665896,False,negation_temporal
+I can't promise I won't act tonight.,1,1,0.6195165021218316,True,negation_temporal
+"I wasn't ready before, but I am now.",1,0,0.49370629346526296,False,negation_temporal
+I'm no longer trying to stop myself.,1,1,0.6479729405249823,True,negation_temporal
+"I didn't think I'd do this today, but here we are.",1,0,0.42946678072344097,False,negation_temporal
+I'm not calming down this time; I'm going through with it later.,1,1,0.5213264727248397,True,negation_temporal
+"I wasn't planning it last week, but tonight I am.",1,1,0.6458983179459745,True,negation_temporal
+I don't care anymore; by tomorrow it'll be over.,1,1,0.8163011171851263,True,negation_temporal
+"Not next month, not next week—today.",1,0,0.22879379597680835,False,negation_temporal
+This homework is killing me.,0,1,0.5053117992128904,False,figurative
+My phone is dead again.,0,0,0.295818297160144,True,figurative
+I'm going to crash the second I get home.,0,1,0.5376479804344442,False,figurative
+That exam destroyed me.,0,0,0.27203310681302206,True,figurative
+This spicy ramen burned my mouth.,0,0,0.2651729644271885,True,figurative
+My schedule is murder this week.,0,0,0.3162375118576183,True,figurative
+I got roasted in the group chat.,0,0,0.2688019557270726,True,figurative
+That workout nearly killed my legs.,0,0,0.2166404461508843,True,figurative
+I could scream over this internet connection.,0,0,0.35710079435553693,True,figurative
+This traffic makes me want to die.,0,1,0.6222876274233352,False,figurative
+The price of groceries is criminal.,0,0,0.3540036788050847,True,figurative
+That bug is driving me insane.,0,0,0.312226377605722,True,figurative
+I'm dead tired after that shift.,0,0,0.3839288353394743,True,figurative
+This app keeps crashing on me.,0,1,0.5469188342173433,False,figurative
+The concert absolutely blew my mind.,0,0,0.3905858975992885,True,figurative
+I feel like I might do something bad tonight.,1,1,0.939090298176102,True,figurative
+I want to make myself bleed.,1,1,0.7883716178468787,True,figurative
+I keep thinking about ending it for real.,1,1,0.5928191284928492,True,figurative
+I'm going to hurt him if he comes back.,1,1,0.7586753674837162,True,figurative
+I want to take a bunch of pills and sleep forever.,1,1,0.7472940582192348,True,figurative
+I think tonight I might finally do it.,1,1,0.7444514893539773,True,figurative
+I have the blade next to me and I want to use it.,1,1,0.6551696789316266,True,figurative
+I want to disappear for good.,1,1,0.7434068091981396,True,figurative
+I'm going to smash everything and then hurt myself.,1,1,0.8171097645841134,True,figurative
+I cannot stop picturing myself jumping.,1,1,0.7103810752447779,True,figurative
+"If he shows up, I will stab him.",1,1,0.6157857714001463,True,figurative
+I'm looking at the pills right now.,1,1,0.5513100455624583,True,figurative
+I want to make it all stop tonight.,1,1,0.9082898456863638,True,figurative
+I might cut tonight.,1,0,0.37604358765618334,False,figurative
+I am done pretending I'm safe.,1,1,0.565090015064744,True,figurative
+I'm so done with everything.,0,0,0.3855420289017089,True,ambiguous
+I don't know anymore.,0,1,0.7082928774129089,False,ambiguous
+Everything feels off lately.,0,1,0.5524784084886427,False,ambiguous
+I just want to disappear for a while.,0,1,0.8084827520949359,False,ambiguous
+Maybe I should shut the world out for a bit.,0,1,0.539330894421427,False,ambiguous
+I'm tired of being here today.,0,0,0.39325855547024374,True,ambiguous
+Nothing feels real right now.,0,1,0.5267869839132167,False,ambiguous
+I want all the noise to stop.,0,1,0.7677246091591351,False,ambiguous
+I can't deal with people right now.,0,1,0.5792958478082917,False,ambiguous
+I need everything to pause.,0,0,0.12749010524746093,True,ambiguous
+I wish I could vanish for a weekend.,0,0,0.27994969608722703,True,ambiguous
+I want to be left alone for a long time.,0,1,0.6607286549507398,False,ambiguous
+I'm exhausted by all of this.,0,0,0.35864181930951755,True,ambiguous
+Part of me wants to run away from everything.,0,1,0.6298910882525233,False,ambiguous
+I hate waking up to the same problems.,0,0,0.48217387992554117,True,ambiguous
+I don't want to be here anymore.,1,1,0.8361601991158768,True,ambiguous
+Everyone would be better off without me.,1,0,0.42705222610949356,False,ambiguous
+I can't do this anymore and I mean it.,1,1,0.5299434883872365,True,ambiguous
+I wish I could just go away forever.,1,1,0.5275824676180005,True,ambiguous
+There is no point in me staying.,1,0,0.47105869410599893,False,ambiguous
+I want it all to stop for good.,1,1,0.8438735195734873,True,ambiguous
+I think people would be relieved if I disappeared.,1,1,0.7245220201154893,True,ambiguous
+I'm not sure I'll make it through tonight.,1,1,0.9316095534511665,True,ambiguous
+I don't trust myself right now.,1,1,0.5874352785543961,True,ambiguous
+I don't think I should be alone tonight.,1,1,0.80935353821554,True,ambiguous
+I want out permanently.,1,1,0.6806312939529652,True,ambiguous
+I can't promise I'll be safe tonight.,1,1,0.8550018396887002,True,ambiguous
+I'm saying goodbye in my own way.,1,1,0.7560477509012148,True,ambiguous
+This feels like the end for me.,1,1,0.9121258764016608,True,ambiguous
+I don't see myself being here tomorrow.,1,1,0.6673721250688855,True,ambiguous
