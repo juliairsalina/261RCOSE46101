@@ -1,6 +1,6 @@
 import argparse
-import json
 import inspect
+import json
 from pathlib import Path
 
 import numpy as np
@@ -18,6 +18,8 @@ from transformers import (
 )
 
 from src.config import (
+    ROBERTA_MODEL_NAME,
+    NLI_MODEL_NAME,
     MAX_LEN,
     BATCH_SIZE,
     EPOCHS,
@@ -25,18 +27,11 @@ from src.config import (
     SEED,
     VAL_PATH,
     RESULTS_DIR,
+    MODEL_DIR,
 )
 
 
-SAVED_MODELS_DIR = Path("saved_models")
-DEFAULT_NLI_MODEL = "cross-encoder/nli-roberta-base"
-
-
 class TextDataset(torch.utils.data.Dataset):
-    """
-    Simple PyTorch Dataset for binary risky-intent classification.
-    """
-
     def __init__(self, texts, labels, tokenizer, max_len):
         self.texts = list(texts)
         self.labels = list(labels)
@@ -65,18 +60,7 @@ class TextDataset(torch.utils.data.Dataset):
         }
 
 
-def load_dataset(path):
-    """
-    Load CSV dataset.
-
-    Required columns:
-    - text
-    - label
-
-    Labels must already be numeric:
-    0 = non-risky
-    1 = risky
-    """
+def load_dataset(path: Path) -> pd.DataFrame:
     print(f"Loading dataset from: {path}")
 
     df = pd.read_csv(path)
@@ -85,7 +69,10 @@ def load_dataset(path):
     missing_columns = [col for col in required_columns if col not in df.columns]
 
     if missing_columns:
-        raise ValueError(f"Missing required columns in {path}: {missing_columns}")
+        raise ValueError(
+            f"Missing required columns in {path}: {missing_columns}\n"
+            f"Available columns: {list(df.columns)}"
+        )
 
     df = df.dropna(subset=["text", "label"]).copy()
     df["text"] = df["text"].astype(str)
@@ -96,19 +83,12 @@ def load_dataset(path):
     return df
 
 
-def make_replay_training_data(train_df, replay_df, replay_repeat):
-    """
-    Experience Replay:
-
-    The replay examples are repeated and added to the normal training data.
-    This makes the model repeatedly see important hard examples such as:
-    - negation
-    - temporal recovery
-    - figurative language
-    - ambiguous shortcut words
-    """
-    if replay_repeat <= 0:
-        print("Replay repeat is 0. Using normal training data only.")
+def make_replay_training_data(
+    train_df: pd.DataFrame,
+    replay_df: pd.DataFrame | None,
+    replay_repeat: int,
+) -> pd.DataFrame:
+    if replay_df is None or replay_repeat <= 0:
         return train_df.copy()
 
     replay_repeated = pd.concat(
@@ -143,18 +123,23 @@ def compute_metrics(eval_pred):
     return {
         "accuracy": accuracy_score(labels, predictions),
         "macro_f1": f1_score(labels, predictions, average="macro"),
-        "precision": precision_score(labels, predictions, average="macro", zero_division=0),
-        "recall": recall_score(labels, predictions, average="macro", zero_division=0),
+        "precision": precision_score(
+            labels,
+            predictions,
+            average="macro",
+            zero_division=0,
+        ),
+        "recall": recall_score(
+            labels,
+            predictions,
+            average="macro",
+            zero_division=0,
+        ),
     }
 
 
-def build_training_args(output_model_dir):
-    """
-    Handles Transformers version differences:
-    - older versions use evaluation_strategy
-    - newer versions use eval_strategy
-    """
-    training_args_kwargs = {
+def build_training_args(output_model_dir: Path):
+    kwargs = {
         "output_dir": str(output_model_dir),
         "save_strategy": "epoch",
         "learning_rate": LEARNING_RATE,
@@ -174,11 +159,11 @@ def build_training_args(output_model_dir):
     signature = inspect.signature(TrainingArguments.__init__)
 
     if "eval_strategy" in signature.parameters:
-        training_args_kwargs["eval_strategy"] = "epoch"
+        kwargs["eval_strategy"] = "epoch"
     else:
-        training_args_kwargs["evaluation_strategy"] = "epoch"
+        kwargs["evaluation_strategy"] = "epoch"
 
-    return TrainingArguments(**training_args_kwargs)
+    return TrainingArguments(**kwargs)
 
 
 def build_trainer(
@@ -188,12 +173,7 @@ def build_trainer(
     val_dataset,
     tokenizer,
 ):
-    """
-    Handles Transformers version differences:
-    - older versions use tokenizer=
-    - newer versions use processing_class=
-    """
-    trainer_kwargs = {
+    kwargs = {
         "model": model,
         "args": training_args,
         "train_dataset": train_dataset,
@@ -204,37 +184,47 @@ def build_trainer(
     signature = inspect.signature(Trainer.__init__)
 
     if "processing_class" in signature.parameters:
-        trainer_kwargs["processing_class"] = tokenizer
+        kwargs["processing_class"] = tokenizer
     else:
-        trainer_kwargs["tokenizer"] = tokenizer
+        kwargs["tokenizer"] = tokenizer
 
-    return Trainer(**trainer_kwargs)
+    return Trainer(**kwargs)
 
 
-def train_nli_replay(
-    experiment_id,
-    train_file,
-    replay_file,
-    model_name,
-    replay_repeat,
+def get_model_name(model_family: str, model_name: str | None) -> str:
+    if model_name:
+        return model_name
+
+    if model_family == "roberta":
+        return ROBERTA_MODEL_NAME
+
+    if model_family == "nli":
+        return NLI_MODEL_NAME
+
+    raise ValueError(f"Unknown model_family: {model_family}")
+
+
+def train_transformer(
+    experiment_id: str,
+    train_file: Path,
+    model_family: str,
+    model_name: str | None = None,
+    replay_file: Path | None = None,
+    replay_repeat: int = 0,
 ):
-    """
-    E8:
-    NLI initialization + Experience Replay + Keyword Masking.
-
-    Main train file should be:
-        data/processed/train_masked.csv
-
-    Replay file should be:
-        data/processed/replay_examples.csv
-    """
     set_seed(SEED)
 
+    selected_model_name = get_model_name(model_family, model_name)
+
     train_df = load_dataset(train_file)
-    replay_df = load_dataset(replay_file)
     val_df = load_dataset(VAL_PATH)
 
-    combined_train_df = make_replay_training_data(
+    replay_df = None
+
+    if replay_file is not None:
+        replay_df = load_dataset(replay_file)
+
+    final_train_df = make_replay_training_data(
         train_df=train_df,
         replay_df=replay_df,
         replay_repeat=replay_repeat,
@@ -242,23 +232,29 @@ def train_nli_replay(
 
     print("\nTraining configuration:")
     print(f"Experiment ID: {experiment_id}")
-    print(f"NLI model name: {model_name}")
+    print(f"Model family: {model_family}")
+    print(f"Model name: {selected_model_name}")
     print(f"Train file: {train_file}")
+    print(f"Validation file: {VAL_PATH}")
     print(f"Replay file: {replay_file}")
     print(f"Replay repeat: {replay_repeat}")
-    print(f"Validation file: {VAL_PATH}")
+    print(f"Max length: {MAX_LEN}")
+    print(f"Batch size: {BATCH_SIZE}")
+    print(f"Epochs: {EPOCHS}")
+    print(f"Learning rate: {LEARNING_RATE}")
+    print(f"Seed: {SEED}")
 
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    tokenizer = AutoTokenizer.from_pretrained(selected_model_name)
 
     model = AutoModelForSequenceClassification.from_pretrained(
-        model_name,
+        selected_model_name,
         num_labels=2,
         ignore_mismatched_sizes=True,
     )
 
     train_dataset = TextDataset(
-        texts=combined_train_df["text"],
-        labels=combined_train_df["label"],
+        texts=final_train_df["text"],
+        labels=final_train_df["label"],
         tokenizer=tokenizer,
         max_len=MAX_LEN,
     )
@@ -270,7 +266,7 @@ def train_nli_replay(
         max_len=MAX_LEN,
     )
 
-    output_model_dir = SAVED_MODELS_DIR / experiment_id
+    output_model_dir = MODEL_DIR / experiment_id
     output_model_dir.mkdir(parents=True, exist_ok=True)
 
     training_args = build_training_args(output_model_dir)
@@ -283,7 +279,7 @@ def train_nli_replay(
         tokenizer=tokenizer,
     )
 
-    print("\nStarting NLI + Experience Replay fine-tuning...")
+    print("\nStarting fine-tuning...")
     trainer.train()
 
     print("\nSaving model and tokenizer...")
@@ -294,15 +290,14 @@ def train_nli_replay(
 
     train_log = {
         "experiment_id": experiment_id,
-        "experiment_name": "NLI + Experience Replay + Keyword Masking",
-        "model_name": model_name,
+        "model_family": model_family,
+        "model_name": selected_model_name,
         "train_file": str(train_file),
-        "replay_file": str(replay_file),
         "validation_file": str(VAL_PATH),
-        "original_train_rows": len(train_df),
-        "replay_rows": len(replay_df),
+        "replay_file": str(replay_file) if replay_file is not None else None,
         "replay_repeat": replay_repeat,
-        "combined_train_rows": len(combined_train_df),
+        "original_train_rows": len(train_df),
+        "final_train_rows": len(final_train_df),
         "max_len": MAX_LEN,
         "batch_size": BATCH_SIZE,
         "epochs": EPOCHS,
@@ -326,39 +321,35 @@ def train_nli_replay(
 def parse_args():
     parser = argparse.ArgumentParser()
 
-    parser.add_argument(
-        "--experiment_id",
-        type=str,
-        required=True,
-        help="Experiment ID, for example E8.",
-    )
+    parser.add_argument("--experiment_id", type=str, required=True)
+    parser.add_argument("--train_file", type=str, required=True)
 
     parser.add_argument(
-        "--train_file",
+        "--model_family",
         type=str,
+        choices=["roberta", "nli"],
         required=True,
-        help="Main training CSV file. For E8, use data/processed/train_masked.csv.",
-    )
-
-    parser.add_argument(
-        "--replay_file",
-        type=str,
-        required=True,
-        help="Replay examples CSV file.",
     )
 
     parser.add_argument(
         "--model_name",
         type=str,
-        default=DEFAULT_NLI_MODEL,
-        help="NLI model checkpoint.",
+        default=None,
+        help="Optional custom model checkpoint.",
+    )
+
+    parser.add_argument(
+        "--replay_file",
+        type=str,
+        default=None,
+        help="Optional replay examples CSV.",
     )
 
     parser.add_argument(
         "--replay_repeat",
         type=int,
-        default=5,
-        help="How many times to repeat replay examples before adding them to training data.",
+        default=0,
+        help="How many times to repeat replay examples.",
     )
 
     return parser.parse_args()
@@ -367,11 +358,14 @@ def parse_args():
 def main():
     args = parse_args()
 
-    train_nli_replay(
+    replay_file = Path(args.replay_file) if args.replay_file else None
+
+    train_transformer(
         experiment_id=args.experiment_id,
         train_file=Path(args.train_file),
-        replay_file=Path(args.replay_file),
+        model_family=args.model_family,
         model_name=args.model_name,
+        replay_file=replay_file,
         replay_repeat=args.replay_repeat,
     )
 

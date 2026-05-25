@@ -1,6 +1,5 @@
 import argparse
 import json
-from pathlib import Path
 
 import numpy as np
 import pandas as pd
@@ -22,17 +21,16 @@ from src.config import (
     TEST_PATH,
     OOD_PATH,
     RESULTS_DIR,
+    MODEL_DIR,
+    ID2LABEL,
 )
 
 
-SAVED_MODELS_DIR = Path("saved_models")
 CONFIDENCE_THRESHOLD = 0.80
+LABEL_IDS = [0, 1]
 
 
 def load_dataset(path):
-    """
-    Load evaluation CSV dataset.
-    """
     print(f"Loading dataset from: {path}")
 
     df = pd.read_csv(path)
@@ -41,10 +39,12 @@ def load_dataset(path):
     missing_columns = [col for col in required_columns if col not in df.columns]
 
     if missing_columns:
-        raise ValueError(f"Missing required columns in {path}: {missing_columns}")
+        raise ValueError(
+            f"Missing required columns in {path}: {missing_columns}\n"
+            f"Available columns: {list(df.columns)}"
+        )
 
     df = df.dropna(subset=["text", "label"]).copy()
-
     df["text"] = df["text"].astype(str)
     df["label"] = df["label"].astype(int)
 
@@ -54,9 +54,6 @@ def load_dataset(path):
 
 
 def predict_dataset(model, tokenizer, df, device):
-    """
-    Predict labels and probabilities for a dataset.
-    """
     model.eval()
 
     predicted_labels = []
@@ -90,9 +87,6 @@ def predict_dataset(model, tokenizer, df, device):
 
 
 def compute_basic_metrics(true_labels, predicted_labels, confidences):
-    """
-    Compute standard evaluation metrics.
-    """
     correct_array = np.array(true_labels) == np.array(predicted_labels)
     confidence_array = np.array(confidences)
 
@@ -100,32 +94,49 @@ def compute_basic_metrics(true_labels, predicted_labels, confidences):
         np.sum((correct_array == False) & (confidence_array >= CONFIDENCE_THRESHOLD))
     )
 
-    metrics = {
+    return {
         "accuracy": accuracy_score(true_labels, predicted_labels),
-        "macro_f1": f1_score(true_labels, predicted_labels, average="macro"),
-        "precision": precision_score(true_labels, predicted_labels, average="macro", zero_division=0),
-        "recall": recall_score(true_labels, predicted_labels, average="macro", zero_division=0),
+        "macro_f1": f1_score(
+            true_labels,
+            predicted_labels,
+            average="macro",
+            labels=LABEL_IDS,
+            zero_division=0,
+        ),
+        "precision": precision_score(
+            true_labels,
+            predicted_labels,
+            average="macro",
+            labels=LABEL_IDS,
+            zero_division=0,
+        ),
+        "recall": recall_score(
+            true_labels,
+            predicted_labels,
+            average="macro",
+            labels=LABEL_IDS,
+            zero_division=0,
+        ),
         "classification_report": classification_report(
             true_labels,
             predicted_labels,
-            target_names=["non-risky", "risky"],
+            labels=LABEL_IDS,
+            target_names=[ID2LABEL[0], ID2LABEL[1]],
             output_dict=True,
             zero_division=0,
         ),
-        "confusion_matrix": confusion_matrix(true_labels, predicted_labels).tolist(),
+        "confusion_matrix": confusion_matrix(
+            true_labels,
+            predicted_labels,
+            labels=LABEL_IDS,
+        ).tolist(),
         "average_confidence": float(np.mean(confidences)),
         "confident_wrong_count": confident_wrong_count,
         "confidence_threshold": CONFIDENCE_THRESHOLD,
     }
 
-    return metrics
-
 
 def compute_category_metrics(df, predicted_labels):
-    """
-    For OOD dataset:
-    If category column exists, compute category-wise accuracy and macro-F1.
-    """
     if "category" not in df.columns:
         return None
 
@@ -145,6 +156,7 @@ def compute_category_metrics(df, predicted_labels):
                 true_labels,
                 category_predictions,
                 average="macro",
+                labels=LABEL_IDS,
                 zero_division=0,
             ),
         }
@@ -153,9 +165,6 @@ def compute_category_metrics(df, predicted_labels):
 
 
 def create_predictions_dataframe(df, predicted_labels, risky_probs, confidences):
-    """
-    Create predictions CSV dataframe.
-    """
     true_labels = df["label"].tolist()
 
     predictions_df = pd.DataFrame(
@@ -169,8 +178,9 @@ def create_predictions_dataframe(df, predicted_labels, risky_probs, confidences)
         }
     )
 
-    if "category" in df.columns:
-        predictions_df["category"] = df["category"]
+    for col in ["id", "keyword", "category"]:
+        if col in df.columns:
+            predictions_df[col] = df[col].values
 
     return predictions_df
 
@@ -183,9 +193,6 @@ def evaluate_one_dataset(
     predictions_output_path,
     compute_categories=False,
 ):
-    """
-    Evaluate one dataset and save prediction CSV.
-    """
     true_labels = df["label"].tolist()
 
     predicted_labels, risky_probs, confidences = predict_dataset(
@@ -223,15 +230,12 @@ def evaluate_one_dataset(
 
 
 def evaluate_experiment(experiment_id):
-    """
-    Load saved model and evaluate on ID test set and OOD set.
-    """
-    model_path = SAVED_MODELS_DIR / experiment_id
+    model_path = MODEL_DIR / experiment_id
 
     if not model_path.exists():
         raise FileNotFoundError(
             f"Model directory not found: {model_path}\n"
-            f"Please train first using: python -m src.train_roberta"
+            f"Please train first."
         )
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -259,7 +263,7 @@ def evaluate_experiment(experiment_id):
         df=test_df,
         device=device,
         predictions_output_path=id_predictions_path,
-        compute_categories=False,
+        compute_categories=True,
     )
 
     print("\nEvaluating OOD set...")
@@ -298,14 +302,7 @@ def evaluate_experiment(experiment_id):
 
 def parse_args():
     parser = argparse.ArgumentParser()
-
-    parser.add_argument(
-        "--experiment_id",
-        type=str,
-        required=True,
-        help="Experiment ID, for example E1, E2, E3, E4, or E5.",
-    )
-
+    parser.add_argument("--experiment_id", type=str, required=True)
     return parser.parse_args()
 
 
