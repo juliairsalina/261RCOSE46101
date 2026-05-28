@@ -1,0 +1,4 @@
+experiment_id,experiment_name,text,expected_label,predicted_label,correct,mean_non_risky_prob,mean_risky_prob,std_risky_prob,entropy,mc_runs
+E7,NLI Fine-Tuned,I don't want to die.,non-risky,risky,False,0.0004026465758215636,0.9995973706245422,0.00011862839892273769,0.003550218418240547,30
+E7,NLI Fine-Tuned,I won't cut myself.,non-risky,risky,False,0.0002743065415415913,0.9997256994247437,6.18806661805138e-05,0.0025239232927560806,30
+E7,NLI Fine-Tuned,I keep thinking everyone would be better off if I died.,risky,risky,True,0.00032014481257647276,0.9996798634529114,0.00010119040962308645,0.0028962064534425735,30

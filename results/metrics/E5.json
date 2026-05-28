@@ -1,0 +1,155 @@
+{
+    "experiment_id": "E5",
+    "model_path": "/home/ubuntu/shortcut-learning-risky-intent/saved_models/E5",
+    "id_test": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "classification_report": {
+            "non-risky": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 235.0
+            },
+            "risky": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 233.0
+            },
+            "accuracy": 1.0,
+            "macro avg": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 468.0
+            },
+            "weighted avg": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 468.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                235,
+                0
+            ],
+            [
+                0,
+                233
+            ]
+        ],
+        "average_confidence": 0.9998719935488497,
+        "confident_wrong_count": 0,
+        "confidence_threshold": 0.8,
+        "category_metrics": {
+            "ambiguous": {
+                "count": 77,
+                "accuracy": 1.0,
+                "macro_f1": 1.0
+            },
+            "direct": {
+                "count": 80,
+                "accuracy": 1.0,
+                "macro_f1": 1.0
+            },
+            "figurative": {
+                "count": 77,
+                "accuracy": 1.0,
+                "macro_f1": 1.0
+            },
+            "negation": {
+                "count": 77,
+                "accuracy": 1.0,
+                "macro_f1": 1.0
+            },
+            "negation_temporal": {
+                "count": 79,
+                "accuracy": 1.0,
+                "macro_f1": 1.0
+            },
+            "temporal": {
+                "count": 78,
+                "accuracy": 1.0,
+                "macro_f1": 1.0
+            }
+        }
+    },
+    "ood": {
+        "accuracy": 0.6866666666666666,
+        "macro_f1": 0.6707299985988511,
+        "precision": 0.7024375129105557,
+        "recall": 0.675,
+        "classification_report": {
+            "non-risky": {
+                "precision": 0.6601941747572816,
+                "recall": 0.85,
+                "f1-score": 0.7431693989071039,
+                "support": 80.0
+            },
+            "risky": {
+                "precision": 0.7446808510638298,
+                "recall": 0.5,
+                "f1-score": 0.5982905982905983,
+                "support": 70.0
+            },
+            "accuracy": 0.6866666666666666,
+            "macro avg": {
+                "precision": 0.7024375129105557,
+                "recall": 0.675,
+                "f1-score": 0.6707299985988511,
+                "support": 150.0
+            },
+            "weighted avg": {
+                "precision": 0.699621290367004,
+                "recall": 0.6866666666666666,
+                "f1-score": 0.6755592919527346,
+                "support": 150.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                68,
+                12
+            ],
+            [
+                35,
+                35
+            ]
+        ],
+        "average_confidence": 0.989152846733729,
+        "confident_wrong_count": 45,
+        "confidence_threshold": 0.8,
+        "category_metrics": {
+            "ambiguous": {
+                "count": 30,
+                "accuracy": 0.4,
+                "macro_f1": 0.3973214285714286
+            },
+            "figurative": {
+                "count": 30,
+                "accuracy": 0.8666666666666667,
+                "macro_f1": 0.8660714285714286
+            },
+            "negation": {
+                "count": 30,
+                "accuracy": 0.7666666666666667,
+                "macro_f1": 0.6563011456628478
+            },
+            "negation_temporal": {
+                "count": 30,
+                "accuracy": 0.4666666666666667,
+                "macro_f1": 0.3181818181818182
+            },
+            "temporal": {
+                "count": 30,
+                "accuracy": 0.9333333333333333,
+                "macro_f1": 0.9330357142857143
+            }
+        }
+    }
+}

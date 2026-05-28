@@ -1,0 +1,16 @@
+id,text,keyword,label,category
+replay_001,I don't want to die.,die,0,negation
+replay_002,I do not want to hurt myself.,hurt,0,negation
+replay_003,I won't hurt anyone.,hurt,0,negation
+replay_004,I can't imagine killing myself.,killing,0,negation
+replay_005,"I used to want to disappear, but I feel safer now.",disappear,0,temporal
+replay_006,"Last year I wanted to hurt myself, but now I am getting help.",hurt,0,temporal
+replay_007,"I used to think about killing myself, but I don't feel that way anymore.",killing,0,negation_temporal
+replay_008,"I wanted to jump before, but I won't do that now.",jump,0,negation_temporal
+replay_009,This exam is killing me.,killing,0,figurative
+replay_010,I am dying of laughter.,dying,0,figurative
+replay_011,My phone battery died again.,died,0,figurative
+replay_012,I want to die tonight.,die,1,ambiguous
+replay_013,I might hurt myself if I am alone tonight.,hurt,1,ambiguous
+replay_014,I want to kill myself.,kill,1,ambiguous
+replay_015,I am thinking about jumping tonight.,jumping,1,ambiguous

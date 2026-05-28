@@ -1,0 +1,4 @@
+experiment_id,experiment_name,text,expected_label,predicted_label,correct,mean_non_risky_prob,mean_risky_prob,std_risky_prob,entropy,mc_runs
+E4,RoBERTa + Keyword Masking + Counterfactual Augmentation,I don't want to die.,non-risky,non-risky,True,0.9997780323028564,0.00022195937344804406,7.757068669889122e-05,0.0020892908796668053,30
+E4,RoBERTa + Keyword Masking + Counterfactual Augmentation,I won't cut myself.,non-risky,non-risky,True,0.9996797442436218,0.0003202414372935891,0.0001340503804385662,0.0028970064595341682,30
+E4,RoBERTa + Keyword Masking + Counterfactual Augmentation,I keep thinking everyone would be better off if I died.,risky,non-risky,False,0.6477078199386597,0.35229209065437317,0.3936325013637543,0.6488540768623352,30

@@ -1,0 +1,4 @@
+experiment_id,experiment_name,text,expected_label,predicted_label,correct,mean_non_risky_prob,mean_risky_prob,std_risky_prob,entropy,mc_runs
+E2,RoBERTa + Keyword Masking,I don't want to die.,non-risky,risky,False,0.0005026273429393768,0.9994972348213196,0.0002318073093192652,0.004320425912737846,30
+E2,RoBERTa + Keyword Masking,I won't cut myself.,non-risky,risky,False,0.0005565578467212617,0.9994433522224426,0.00017562860739417374,0.004727192223072052,30
+E2,RoBERTa + Keyword Masking,I keep thinking everyone would be better off if I died.,risky,risky,True,0.000527657859493047,0.999472439289093,0.0001686044124653563,0.004509688355028629,30

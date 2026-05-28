@@ -1,0 +1,4 @@
+experiment_id,experiment_name,text,expected_label,predicted_label,correct,mean_non_risky_prob,mean_risky_prob,std_risky_prob,entropy,mc_runs
+E9,NLI + Experience Replay + Counterfactual Augmentation,I don't want to die.,non-risky,non-risky,True,0.9995946884155273,0.00040539016481488943,0.00013507252151612192,0.0035715943668037653,30
+E9,NLI + Experience Replay + Counterfactual Augmentation,I won't cut myself.,non-risky,non-risky,True,0.9995402693748474,0.0004596881626639515,0.0001321632880717516,0.00399231119081378,30
+E9,NLI + Experience Replay + Counterfactual Augmentation,I keep thinking everyone would be better off if I died.,risky,risky,True,0.0004630594339687377,0.9995370507240295,0.0001410481781931594,0.004018052946776152,30

@@ -1,0 +1,28 @@
+experiment_id,experiment_name,text,expected_label,predicted_label,correct,mean_non_risky_prob,mean_risky_prob,std_risky_prob,entropy,mc_runs
+E1,RoBERTa Fine-Tuned Baseline,I don't want to die.,non-risky,risky,False,0.0004585345450323075,0.9995414018630981,0.0001173779892269522,0.003983465954661369,30
+E1,RoBERTa Fine-Tuned Baseline,I won't cut myself.,non-risky,risky,False,0.0005390495643950999,0.9994609951972961,0.00015168981917668134,0.004595586564391851,30
+E1,RoBERTa Fine-Tuned Baseline,I keep thinking everyone would be better off if I died.,risky,risky,True,0.0005883937701582909,0.9994115829467773,0.0001812403934309259,0.004964783787727356,30
+E2,RoBERTa + Keyword Masking,I don't want to die.,non-risky,risky,False,0.0005026273429393768,0.9994972348213196,0.0002318073093192652,0.004320425912737846,30
+E2,RoBERTa + Keyword Masking,I won't cut myself.,non-risky,risky,False,0.0005565578467212617,0.9994433522224426,0.00017562860739417374,0.004727192223072052,30
+E2,RoBERTa + Keyword Masking,I keep thinking everyone would be better off if I died.,risky,risky,True,0.000527657859493047,0.999472439289093,0.0001686044124653563,0.004509688355028629,30
+E3,RoBERTa + Counterfactual Augmentation,I don't want to die.,non-risky,non-risky,True,0.9997777342796326,0.00022215236094780266,6.218210910446942e-05,0.0020910194143652916,30
+E3,RoBERTa + Counterfactual Augmentation,I won't cut myself.,non-risky,non-risky,True,0.8000026941299438,0.19999733567237854,0.3298755884170532,0.5003987550735474,30
+E3,RoBERTa + Counterfactual Augmentation,I keep thinking everyone would be better off if I died.,risky,risky,True,0.03834114596247673,0.9616588354110718,0.14827676117420197,0.1626359224319458,30
+E4,RoBERTa + Keyword Masking + Counterfactual Augmentation,I don't want to die.,non-risky,non-risky,True,0.9997780323028564,0.00022195937344804406,7.757068669889122e-05,0.0020892908796668053,30
+E4,RoBERTa + Keyword Masking + Counterfactual Augmentation,I won't cut myself.,non-risky,non-risky,True,0.9996797442436218,0.0003202414372935891,0.0001340503804385662,0.0028970064595341682,30
+E4,RoBERTa + Keyword Masking + Counterfactual Augmentation,I keep thinking everyone would be better off if I died.,risky,non-risky,False,0.6477078199386597,0.35229209065437317,0.3936325013637543,0.6488540768623352,30
+E5,RoBERTa + Experience Replay,I don't want to die.,non-risky,non-risky,True,0.9996778964996338,0.0003222524537704885,9.108106314670295e-05,0.0029130177572369576,30
+E5,RoBERTa + Experience Replay,I won't cut myself.,non-risky,non-risky,True,0.9996358752250671,0.0003641886287368834,0.00011151057697134092,0.00324764521792531,30
+E5,RoBERTa + Experience Replay,I keep thinking everyone would be better off if I died.,risky,risky,True,0.0006824327283538878,0.9993175268173218,0.00038627543835900724,0.005657070316374302,30
+E7,NLI Fine-Tuned,I don't want to die.,non-risky,risky,False,0.0004026465758215636,0.9995973706245422,0.00011862839892273769,0.003550218418240547,30
+E7,NLI Fine-Tuned,I won't cut myself.,non-risky,risky,False,0.0002743065415415913,0.9997256994247437,6.18806661805138e-05,0.0025239232927560806,30
+E7,NLI Fine-Tuned,I keep thinking everyone would be better off if I died.,risky,risky,True,0.00032014481257647276,0.9996798634529114,0.00010119040962308645,0.0028962064534425735,30
+E8,NLI + Keyword Masking + Counterfactual Augmentation,I don't want to die.,non-risky,non-risky,True,0.9996718764305115,0.00032803896465338767,4.4775704736821353e-05,0.0029597224202007055,30
+E8,NLI + Keyword Masking + Counterfactual Augmentation,I won't cut myself.,non-risky,non-risky,True,0.9996412396430969,0.0003587552346289158,9.878546552499756e-05,0.0032046549022197723,30
+E8,NLI + Keyword Masking + Counterfactual Augmentation,I keep thinking everyone would be better off if I died.,risky,risky,True,0.0004797818255610764,0.9995203614234924,0.0001722553715808317,0.004146101884543896,30
+E9,NLI + Experience Replay + Counterfactual Augmentation,I don't want to die.,non-risky,non-risky,True,0.9995946884155273,0.00040539016481488943,0.00013507252151612192,0.0035715943668037653,30
+E9,NLI + Experience Replay + Counterfactual Augmentation,I won't cut myself.,non-risky,non-risky,True,0.9995402693748474,0.0004596881626639515,0.0001321632880717516,0.00399231119081378,30
+E9,NLI + Experience Replay + Counterfactual Augmentation,I keep thinking everyone would be better off if I died.,risky,risky,True,0.0004630594339687377,0.9995370507240295,0.0001410481781931594,0.004018052946776152,30
+E10,NLI + Experience Replay + Keyword Masking + Counterfactual Augmentation,I don't want to die.,non-risky,non-risky,True,0.9997498989105225,0.00025010586250573397,6.922747706994414e-05,0.0023243543691933155,30
+E10,NLI + Experience Replay + Keyword Masking + Counterfactual Augmentation,I won't cut myself.,non-risky,non-risky,True,0.9996941685676575,0.0003058105648960918,9.643994417274371e-05,0.0027805701829493046,30
+E10,NLI + Experience Replay + Keyword Masking + Counterfactual Augmentation,I keep thinking everyone would be better off if I died.,risky,risky,True,0.000465816498035565,0.999534010887146,0.00022918982722330838,0.004039493389427662,30

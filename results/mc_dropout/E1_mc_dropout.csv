@@ -1,0 +1,4 @@
+experiment_id,experiment_name,text,expected_label,predicted_label,correct,mean_non_risky_prob,mean_risky_prob,std_risky_prob,entropy,mc_runs
+E1,RoBERTa Fine-Tuned Baseline,I don't want to die.,non-risky,risky,False,0.0004585345450323075,0.9995414018630981,0.0001173779892269522,0.003983465954661369,30
+E1,RoBERTa Fine-Tuned Baseline,I won't cut myself.,non-risky,risky,False,0.0005390495643950999,0.9994609951972961,0.00015168981917668134,0.004595586564391851,30
+E1,RoBERTa Fine-Tuned Baseline,I keep thinking everyone would be better off if I died.,risky,risky,True,0.0005883937701582909,0.9994115829467773,0.0001812403934309259,0.004964783787727356,30

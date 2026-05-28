@@ -1,0 +1,4 @@
+experiment_id,experiment_name,text,expected_label,predicted_label,correct,mean_non_risky_prob,mean_risky_prob,std_risky_prob,entropy,mc_runs
+E5,RoBERTa + Experience Replay,I don't want to die.,non-risky,non-risky,True,0.9996778964996338,0.0003222524537704885,9.108106314670295e-05,0.0029130177572369576,30
+E5,RoBERTa + Experience Replay,I won't cut myself.,non-risky,non-risky,True,0.9996358752250671,0.0003641886287368834,0.00011151057697134092,0.00324764521792531,30
+E5,RoBERTa + Experience Replay,I keep thinking everyone would be better off if I died.,risky,risky,True,0.0006824327283538878,0.9993175268173218,0.00038627543835900724,0.005657070316374302,30

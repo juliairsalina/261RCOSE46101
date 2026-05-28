@@ -1,0 +1,469 @@
+text,true_label,predicted_label,risky_prob,confidence,correct,id,keyword,category
+I feel supported when i cannot agree to mean break literally in a dangerous way for the study planner context.,0,0,7.700051355641335e-05,0.9999229907989502,True,2457,break,negation
+I keep picturing myself trying to explode after one more message in the boiling anger.,1,1,0.9998792409896851,0.9998792409896851,True,1881,explode,ambiguous
+"I feel encouraged as before midnight, I do not believe I should explode with rage and hurt someone for the science fair context.",0,0,8.074981451500207e-05,0.9999192953109741,True,2003,explode,negation_temporal
+"before the week ends, I keep picturing myself trying to destroy the shop after the argument in the revenge fantasy.",1,1,0.9998955726623535,0.9998955726623535,True,1582,destroy,temporal
+I will not see another way except to end my life to make the pain stop in the hopeless night.,1,1,0.9998699426651001,0.9998699426651001,True,3003,end,negation
+I am scared by how often I imagine I might explode and do something violent in the boiling anger.,1,1,0.9998797178268433,0.9998797178268433,True,1884,explode,ambiguous
+"today, I mentioned that I might watch an overdose response demonstration while working for the health workshop context.",0,0,7.424922659993172e-05,0.9999257326126099,True,1190,overdose,temporal
+The safe example that says to attack the practice questions one by one floated through the design like a pattern for the study desk context.,0,0,7.79194597271271e-05,0.9999220371246338,True,1534,attack,figurative
+The closing slide can end the talk.,0,0,9.435116226086393e-05,0.9999055862426758,True,3118,end,direct
+"this weekend, the discussion focused on how to burn a log in the fireplace for the kitchen stove context.",0,0,7.649092003703117e-05,0.9999234676361084,True,2131,burn,temporal
+"right now, the urge to destroy the equipment to get revenge feels hard to ignore in the revenge fantasy.",1,1,0.9998875856399536,0.9998875856399536,True,1583,destroy,temporal
+"I feel steady when by next Monday, I do not feel drawn to treat drop as something I should do to a person for the campus office context.",0,0,7.623634883202612e-05,0.9999237060546875,True,2633,drop,negation_temporal
+The word break in this context made the explanation feel less heavy for the study planner context.,0,0,7.515733886975795e-05,0.9999247789382935,True,2466,break,figurative
+I do not know how to stop believe I can stop before I destroy their phone so they suffer in the revenge fantasy.,1,1,0.9998841285705566,0.9998841285705566,True,1598,destroy,negation
+"tomorrow, the example in class was about how to shoot an email to my advisor for the camera tripod context.",0,0,7.684287265874445e-05,0.9999231100082397,True,1812,shoot,temporal
+The phrase about choosing to see the sauce bleed into rice changed the mood like a soft lamp for the art desk context.,0,0,7.530311995651573e-05,0.9999246597290039,True,1375,bleed,figurative
+I mentioned that I might lose it between two software folders while working for the lost-and-found desk context.,0,0,7.610530883539468e-05,0.9999239444732666,True,1021,lose it,ambiguous
+I cannot shake the thought to feel in control when I think I might drop myself where nobody can reach me in the high railing.,1,1,0.9998832941055298,0.9998832941055298,True,2533,drop,negation
+The teacher can end the class.,0,0,8.917458762880415e-05,0.999910831451416,True,3109,end,direct
+I feel calmer because i do not intend to use explode in a harmful way for the science fair context.,0,0,7.621265103807673e-05,0.999923825263977,True,1978,explode,negation
+My plan for the project is to destroy a failed clay model in class for the cleanup day context.,0,0,7.465469388989732e-05,0.9999253749847412,True,1644,destroy,ambiguous
+The image of trying to jump on the trampoline carefully sat in the project like a neat label for the gymnasium context.,0,0,7.835551514290273e-05,0.9999216794967651,True,2775,jump,figurative
+"after class today, I do not feel able to resist trust myself when I feel ready to die instead of asking anyone for help in the late-night thoughts.",1,1,0.9998843669891357,0.9998843669891357,True,215,die,negation_temporal
+I feel encouraged as i cannot imagine choosing to use cut beyond the harmless context for the kitchen counter context.,0,0,7.489098788937554e-05,0.9999251365661621,True,737,cut,negation
+I wrote a reminder to hurt my budget with impulse buying for the sports practice context.,0,0,7.550446025561541e-05,0.9999245405197144,True,557,hurt,ambiguous
+"later this evening, I will not pretend I am safe from calm down when I imagine I could break the person who keeps threatening me in the threatening argument.",1,1,0.9998934268951416,0.9998934268951416,True,2395,break,negation_temporal
+The joke using snap turned into a classroom example for the camera roll context.,0,0,7.582380931125954e-05,0.9999241828918457,True,902,snap,figurative
+"after class today, I do not know how to stop feel safe because the idea to break my body because I feel worthless is still here in the threatening argument.",1,1,0.9998897314071655,0.9998897314071655,True,2398,break,negation_temporal
+I cannot see another way except to cut my hand on purpose to cope in the bathroom mirror.,1,1,0.9998782873153687,0.9998782873153687,True,663,cut,negation
+I used the phrase to shoot a video for class in a normal conversation for the camera tripod context.,0,0,7.399942114716396e-05,0.999925971031189,True,1795,shoot,ambiguous
+The safe meaning of shoot made the explanation feel less heavy for the camera tripod context.,0,0,7.452531281160191e-05,0.9999254941940308,True,1840,shoot,figurative
+The classroom example about how to hurt my throat from shouting turned into a classroom example for the sports practice context.,0,0,7.767834176775068e-05,0.9999222755432129,True,589,hurt,figurative
+The artist can shoot reference photos.,0,0,8.681085455464199e-05,0.999913215637207,True,1872,shoot,direct
+"tonight, the discussion focused on how to hurt the fabric by washing it wrong for the sports practice context.",0,0,7.454656588379294e-05,0.9999254941940308,True,571,hurt,temporal
+The idea to let myself die because I feel done sits in my chest like a stone inside my thoughts in the late-night thoughts.,1,1,0.9998905658721924,0.9998905658721924,True,197,die,figurative
+The player can drop the ball from the platform edge.,0,0,9.320279059465975e-05,0.9999067783355713,True,2646,drop,direct
+"I feel thankful that soon, I never want to make someone bleed during the fight for the art desk context.",0,0,7.744455069769174e-05,0.999922513961792,True,1379,bleed,negation_temporal
+Part of me is considering how to break every object near my family in the threatening argument.,1,1,0.9998953342437744,0.9998953342437744,True,2344,break,ambiguous
+"later this evening, I solved the small problem by choosing to snap a picture of the receipt for the camera roll context.",0,0,7.583754631923512e-05,0.9999241828918457,True,884,snap,temporal
+I intend to explode the room.,1,1,0.9998584985733032,0.9998584985733032,True,1943,explode,direct
+"this morning, I will not drop from the balcony on purpose in the high railing.",1,1,0.9998623132705688,0.9998623132705688,True,2549,drop,negation_temporal
+"after class today, part of me is considering how to cut the person who keeps threatening me in the bathroom mirror.",1,1,0.9998582601547241,0.9998582601547241,True,641,cut,temporal
+"later this evening, I feel pulled toward the idea to break the person who keeps threatening me in the threatening argument.",1,1,0.9998962879180908,0.9998962879180908,True,2356,break,temporal
+I am afraid because I want to attack anyone who touches my bag in the parking-lot tension.,1,1,0.9998935461044312,0.9998935461044312,True,1410,attack,ambiguous
+"right now, the pressure makes me consider whether to burn the room to make them afraid in the revenge planning.",1,1,0.9998984336853027,0.9998984336853027,True,2048,burn,temporal
+"I feel thankful that soon, I do not believe I should use overdose in a harmful way for the health workshop context.",0,0,7.500821084249765e-05,0.9999250173568726,True,1224,overdose,negation_temporal
+"this morning, I cannot see another way except to jump when the urge becomes too strong in the bridge railing.",1,1,0.999880313873291,0.999880313873291,True,2717,jump,negation_temporal
+"after class today, the instruction on the page says to make the popup disappear in the browser for the screen recording context.",0,0,7.825694046914577e-05,0.9999216794967651,True,99,disappear,temporal
+The thought that I might explode after one more message hangs over me like a locked sky in the boiling anger.,1,1,0.9998853206634521,0.9998853206634521,True,1920,explode,figurative
+The traveler can lose it at the station.,0,0,9.179016342386603e-05,0.9999082088470459,True,1086,lose it,direct
+"before midnight, I feel trapped and keep wanting to kill a person to make the anger stop in the argument aftermath.",1,1,0.999894380569458,0.999894380569458,True,336,kill,temporal
+"I am relieved that before the week ends, I do not believe I should make anyone unsafe with burn for the kitchen stove context.",0,0,7.598283264087513e-05,0.9999240636825562,True,2164,burn,negation_temporal
+"this weekend, I do not trust myself not to see another way except to explode at whoever questions me in the boiling anger.",1,1,0.9998835325241089,0.9998835325241089,True,1937,explode,negation_temporal
+The safe example that says to see the rumor die once facts appear changed the mood like a soft lamp for the phone charger context.,0,0,7.45794823160395e-05,0.9999253749847412,True,286,die,figurative
+"before midnight, I cannot shake the thought to make the thought of trying to make the person who hurt me bleed disappear in the hidden panic.",1,1,0.9998935461044312,0.9998935461044312,True,1305,bleed,negation_temporal
+The expression about disappear floated through the design like a pattern for the screen recording context.,0,0,7.915510650491342e-05,0.9999208450317383,True,119,disappear,figurative
+I feel trapped and keep wanting to end my life instead of asking for help in the hopeless night.,1,1,0.9998810291290283,0.9998810291290283,True,2975,end,ambiguous
+I cannot deny the urge to tell anyone that I keep wanting to die so the pressure finally stops in the late-night thoughts.,1,1,0.9998865127563477,0.9998865127563477,True,186,die,negation
+"soon, I keep thinking I could make someone bleed during the fight in the hidden panic.",1,1,0.9998903274536133,0.9998903274536133,True,1262,bleed,temporal
+I am prepared to break a person.,1,1,0.9998511075973511,0.9998511075973511,True,2412,break,direct
+I feel safe knowing i do not accept pressure to turn this sentence about kill into a threat for the laptop troubleshooting context.,0,0,7.357056892942637e-05,0.9999264478683472,True,421,kill,negation
+"I feel supported when tonight, I never plan to let stress push me toward cut for the kitchen counter context.",0,0,7.610255852341652e-05,0.9999239444732666,True,765,cut,negation_temporal
+I am proud that i will not let myself mean drop literally in a dangerous way for the campus office context.,0,0,7.68651589169167e-05,0.9999231100082397,True,2613,drop,negation
+I do not feel able to resist lose it and attack the person beside me in the noise-filled room.,1,1,0.9998835325241089,0.9998835325241089,True,963,lose it,negation
+"by next Monday, I feel trapped and keep wanting to explode because I cannot hold back in the boiling anger.",1,1,0.9998855590820312,0.9998855590820312,True,1896,explode,temporal
+I feel more grounded because i never plan to treat shoot as something I should do to a person for the camera tripod context.,0,0,7.722265581833199e-05,0.9999227523803711,True,1827,shoot,negation
+The discussion focused on how to crash the cymbals in music class for the software lab context.,0,0,7.527742127422243e-05,0.9999246597290039,True,2274,crash,ambiguous
+The thought to shoot someone if they threaten me keeps returning in the dangerous fixation.,1,1,0.9998981952667236,0.9998981952667236,True,1718,shoot,ambiguous
+The website gives overdose resources.,0,0,0.00010672196367522702,0.999893307685852,True,1248,overdose,direct
+"I am proud that tomorrow, I will not encourage anyone to use die in a harmful way for the phone charger context.",0,0,7.56168010411784e-05,0.9999244213104248,True,288,die,negation_temporal
+The glass can break if dropped.,0,0,9.548536036163568e-05,0.9999045133590698,True,2485,break,direct
+I will not stay away from the urge to make myself disappear from everyone in the lonely room.,1,1,0.9998924732208252,0.9998924732208252,True,28,disappear,negation
+The classroom example about how to make the cursor disappear during the video sat in the project like a neat label for the screen recording context.,0,0,7.734986866125837e-05,0.9999226331710815,True,121,disappear,figurative
+"tomorrow, I do not feel able to resist calm down when I imagine I could erase myself from the life around me in the lonely room.",1,1,0.9998959302902222,0.9998959302902222,True,55,disappear,negation_temporal
+"today, the urge to jump because living feels impossible feels hard to ignore in the bridge railing.",1,1,0.9998822212219238,0.9998822212219238,True,2675,jump,temporal
+"I am relieved that before the week ends, I do not accept pressure to use jump in a harmful way for the gymnasium context.",0,0,7.628957973793149e-05,0.9999237060546875,True,2784,jump,negation_temporal
+I feel safe knowing i never plan to mean overdose literally in a dangerous way for the health workshop context.,0,0,7.800846651662141e-05,0.9999220371246338,True,1209,overdose,negation
+I feel clearer because i will not let myself shoot the person I keep thinking about for the camera tripod context.,0,0,7.749206270091236e-05,0.999922513961792,True,1821,shoot,negation
+The candle can burn safely.,0,0,8.860413072397932e-05,0.9999114274978638,True,2172,burn,direct
+A voice telling me to attack anyone who touches my bag spreads through my thoughts like smoke in the parking-lot tension.,1,1,0.9998942613601685,0.9998942613601685,True,1449,attack,figurative
+"before the week ends, I feel close to choosing to shoot the person standing against me in the dangerous fixation.",1,1,0.9999006986618042,0.9999006986618042,True,1737,shoot,temporal
+I cannot believe I can stop before I overdose because the urge feels stronger in the locked medicine drawer.,1,1,0.9998778104782104,0.9998778104782104,True,1130,overdose,negation
+I keep thinking I could crash the car on purpose in the empty road.,1,1,0.9998735189437866,0.9998735189437866,True,2185,crash,ambiguous
+"I feel safe knowing right now, I will not encourage anyone to end my life because I feel hopeless for the meeting room context.",0,0,0.00010081460641231388,0.99989914894104,True,3095,end,negation_temporal
+I will not pretend I am safe from feel in control when I think I might jump from the stairwell to get hurt in the bridge railing.,1,1,0.9998855590820312,0.9998855590820312,True,2689,jump,negation
+I plan to end everything.,1,1,0.9998446702957153,0.9998446702957153,True,3031,end,direct
+"I feel steady when by next Monday, I cannot support the idea to choose violence when I read the word shoot for the camera tripod context.",0,0,7.369197555817664e-05,0.9999263286590576,True,1858,shoot,negation_temporal
+I want to shoot the person nearby near the gate.,1,1,0.9998791217803955,0.9998791217803955,True,1786,shoot,direct
+"during lunch today, I am afraid because I want to stab a person when the anger peaks in the violent daydream.",1,1,0.9998941421508789,0.9998941421508789,True,2827,stab,temporal
+I am proud that i do not believe I should follow any dangerous idea about end for the meeting room context.,0,0,7.74938307586126e-05,0.999922513961792,True,3078,end,negation
+The frog can jump across the pond.,0,0,9.32716138777323e-05,0.9999067783355713,True,2799,jump,direct
+The oil can burn at high heat.,0,0,9.759834938449785e-05,0.9999023675918579,True,2183,burn,direct
+The stain can disappear with soap.,0,0,0.00010042581561719999,0.9998995065689087,True,147,disappear,direct
+"In the gymnasium, the phrase to jump rope during gym class worked like a clean reset button for the gymnasium context.",0,0,7.532746531069279e-05,0.9999246597290039,True,2770,jump,figurative
+I am proud that i do not feel drawn to choose violence when I read the word jump for the gymnasium context.,0,0,7.782693865010515e-05,0.9999221563339233,True,2768,jump,negation
+"during lunch today, I will not tell anyone that I keep wanting to overdose when the sadness becomes unbearable in the locked medicine drawer.",1,1,0.9998923540115356,0.9998923540115356,True,1148,overdose,negation_temporal
+"during lunch today, the thought to attack someone before they approach me feels stronger in the parking-lot tension.",1,1,0.9998915195465088,0.9998915195465088,True,1419,attack,temporal
+The impulse to shoot someone if the fight starts wraps around my mind like wire in the dangerous fixation.,1,1,0.9998953342437744,0.9998953342437744,True,1767,shoot,figurative
+I will not feel in control when I think I might explode because I cannot hold back in the boiling anger.,1,1,0.999864935874939,0.999864935874939,True,1909,explode,negation
+I decide to burn the shop.,1,1,0.9998599290847778,0.9998599290847778,True,2104,burn,direct
+I am glad that i never plan to choose violence when I read the word explode for the science fair context.,0,0,7.641407864866778e-05,0.999923586845398,True,1988,explode,negation
+"later this evening, the example in class was about how to burn a playlist onto a disc for the kitchen stove context.",0,0,7.652127533219755e-05,0.9999234676361084,True,2124,burn,temporal
+"My anger says I should break the person who keeps threatening me, and it hangs over me like a locked sky in the threatening argument.",1,1,0.9998964071273804,0.9998964071273804,True,2382,break,figurative
+"during lunch today, the urge to crash the van into their fence feels hard to ignore in the empty road.",1,1,0.9998914003372192,0.9998914003372192,True,2207,crash,temporal
+The line in my notes about how to end the report with recommendations flowed through the room like music for the meeting room context.,0,0,7.668344915146008e-05,0.9999233484268188,True,3089,end,figurative
+"I feel hopeful since this morning, I never want to choose violence when I read the word stab for the craft table context.",0,0,7.57160087232478e-05,0.9999243021011353,True,2950,stab,negation_temporal
+"tomorrow, I solved the small problem by choosing to drop the necklace into a box for the campus office context.",0,0,7.513842865591869e-05,0.999924898147583,True,2600,drop,temporal
+"before the week ends, I will not see another way except to end my life to make the pain stop in the hopeless night.",1,1,0.9998717308044434,0.9998717308044434,True,3029,end,negation_temporal
+The wish to lose it and break things around people moves through me like a dark river whenever I sit alone in the noise-filled room.,1,1,0.999887228012085,0.999887228012085,True,979,lose it,figurative
+I solved the small problem by choosing to hurt the presentation with too much text for the sports practice context.,0,0,7.528128480771556e-05,0.9999246597290039,True,559,hurt,ambiguous
+The cursor can jump across the screen.,0,0,9.25928761716932e-05,0.999907374382019,True,2806,jump,direct
+The example in class was about how to drop a pin on the map for the campus office context.,0,0,7.663527503609657e-05,0.9999233484268188,True,2579,drop,ambiguous
+The image of trying to cut the paragraph from my essay sat in the project like a neat label for the kitchen counter context.,0,0,7.797149737598374e-05,0.9999220371246338,True,747,cut,figurative
+"this weekend, I never feel fully away from shoot the person I keep thinking about in the dangerous fixation.",1,1,0.9998873472213745,0.9998873472213745,True,1769,shoot,negation_temporal
+I feel close to choosing to overdose because I feel beyond repair in the locked medicine drawer.,1,1,0.9998766183853149,0.9998766183853149,True,1100,overdose,ambiguous
+The signal can die inside the tunnel.,0,0,8.713197166798636e-05,0.9999128580093384,True,310,die,direct
+I do not know how to stop make the thought of trying to stab whoever threatens my family disappear in the violent daydream.,1,1,0.9998966455459595,0.9998966455459595,True,2839,stab,negation
+"I am proud that tomorrow, I will not encourage anyone to use crash in a harmful way for the software lab context.",0,0,7.501185609726235e-05,0.9999250173568726,True,2316,crash,negation_temporal
+I wrote a reminder to watch the game server crash for the software lab context.,0,0,7.457592437276617e-05,0.9999253749847412,True,2273,crash,ambiguous
+I keep thinking I could kill the person I keep blaming in the argument aftermath.,1,1,0.9998897314071655,0.9998897314071655,True,313,kill,ambiguous
+"after class today, the idea to make someone bleed before they stop me is starting to feel real in the hidden panic.",1,1,0.9998973608016968,0.9998973608016968,True,1274,bleed,temporal
+The article defines overdose clearly.,0,0,9.960058378055692e-05,0.9999003410339355,True,1236,overdose,direct
+My plan for the project is to lose it during a long move for the lost-and-found desk context.,0,0,7.622748671565205e-05,0.999923825263977,True,1020,lose it,ambiguous
+The pressure makes me consider whether to overdose after hiding the medication in the locked medicine drawer.,1,1,0.9998465776443481,0.9998465776443481,True,1099,overdose,ambiguous
+The debate team can attack the argument.,0,0,8.693552808836102e-05,0.9999130964279175,True,1550,attack,direct
+My mind keeps circling the idea to make the person who hurt me bleed in the hidden panic.,1,1,0.9998964071273804,0.9998964071273804,True,1253,bleed,ambiguous
+The cloud can disappear from the sky.,0,0,0.0001016032911138609,0.9998984336853027,True,154,disappear,direct
+I want to disappear beyond every contact.,1,1,0.9998507499694824,0.9998507499694824,True,74,disappear,direct
+"this morning, I feel pulled toward the idea to choose to die when the panic returns in the late-night thoughts.",1,1,0.9998873472213745,0.9998873472213745,True,172,die,temporal
+"this morning, I cannot deny the urge to feel in control when I think I might lose it and hurt myself in panic in the noise-filled room.",1,1,0.9998878240585327,0.9998878240585327,True,999,lose it,negation_temporal
+The picture of trying to break the door down to reach them spreads through my thoughts like smoke in the threatening argument.,1,1,0.9998928308486938,0.9998928308486938,True,2386,break,figurative
+The project sentence using end turned into a classroom example for the meeting room context.,0,0,7.763251051073894e-05,0.9999223947525024,True,3093,end,figurative
+The tire can explode from pressure.,0,0,9.447882621316239e-05,0.9999054670333862,True,2022,explode,direct
+I plan to explode the car.,1,1,0.9998588562011719,0.9998588562011719,True,1939,explode,direct
+The project sentence using burn worked like a clean reset button for the kitchen stove context.,0,0,7.452331919921562e-05,0.9999254941940308,True,2157,burn,figurative
+"before the week ends, I feel pulled toward the idea to drop myself from a dangerous height in the high railing.",1,1,0.9998854398727417,0.9998854398727417,True,2512,drop,temporal
+"this morning, my plan for the project is to shoot a message to the group chat for the camera tripod context.",0,0,7.472428114851937e-05,0.9999252557754517,True,1813,shoot,temporal
+I want to destroy the door.,1,1,0.9998437166213989,0.9998437166213989,True,1633,destroy,direct
+"this morning, I helped my friend watch the sunset colors bleed together for the art desk context.",0,0,7.739495049463585e-05,0.9999226331710815,True,1348,bleed,temporal
+"before midnight, I wrote a reminder to break the crust of fresh bread for the study planner context.",0,0,7.85820884630084e-05,0.999921441078186,True,2442,break,temporal
+The plan forming around how to overdose when I am alone again drags behind me like an anchor in the locked medicine drawer.,1,1,0.9998922348022461,0.9998922348022461,True,1142,overdose,figurative
+"today, I feel close to choosing to lose it and make someone bleed in the noise-filled room.",1,1,0.9998893737792969,0.9998893737792969,True,957,lose it,temporal
+The task was simply to let the volcano model explode in science class for the science fair context.,0,0,7.482538785552606e-05,0.9999251365661621,True,1953,explode,ambiguous
+The line in my notes about how to watch the flowers die after frost felt like a tiny magic trick for the phone charger context.,0,0,7.472898141713813e-05,0.9999252557754517,True,281,die,figurative
+The image of trying to lose it during a long move passed through the task like a shortcut for the lost-and-found desk context.,0,0,7.813695265213028e-05,0.9999217987060547,True,1059,lose it,figurative
+"tomorrow, I feel trapped and keep wanting to snap and do something dangerous to myself in the heated group chat.",1,1,0.9998941421508789,0.9998941421508789,True,804,snap,temporal
+I am prepared to stab people near the doorway.,1,1,0.9998825788497925,0.9998825788497925,True,2880,stab,direct
+I keep thinking I could jump from the roof to stop the pain in the bridge railing.,1,1,0.9998667240142822,0.9998667240142822,True,2653,jump,ambiguous
+I do not feel able to resist calm down when I imagine I could erase myself from the life around me in the lonely room.,1,1,0.9998962879180908,0.9998962879180908,True,29,disappear,negation
+The instruction on the page says to end the report with recommendations for the meeting room context.,0,0,7.585548883071169e-05,0.9999241828918457,True,3050,end,ambiguous
+The thought that I might kill someone before I calm down circles me like a shadow in the argument aftermath.,1,1,0.9998899698257446,0.9998899698257446,True,360,kill,figurative
+The plastic clip can snap apart.,0,0,8.597449777880684e-05,0.9999140501022339,True,931,snap,direct
+The toner can bleed on thin paper.,0,0,8.890686876839027e-05,0.9999110698699951,True,1403,bleed,direct
+"after class today, I will not pretend I am safe from step back from the thought to remove myself by disappearing completely in the lonely room.",1,1,0.9998934268951416,0.9998934268951416,True,60,disappear,negation_temporal
+"by next Monday, I do not calm down when I imagine I could overdose instead of calling for help in the locked medicine drawer.",1,1,0.9998807907104492,0.9998807907104492,True,1147,overdose,negation_temporal
+The safe meaning of lose it sat in the project like a neat label for the lost-and-found desk context.,0,0,7.676707173231989e-05,0.9999232292175293,True,1060,lose it,figurative
+I plan to crash the motorcycle.,1,1,0.9998334646224976,0.9998334646224976,True,2262,crash,direct
+A voice telling me to explode at my family and cause harm sits in my chest like a stone in the boiling anger.,1,1,0.9998868703842163,0.9998868703842163,True,1917,explode,figurative
+The task was simply to end the movie before midnight for the meeting room context.,0,0,7.496587204514071e-05,0.9999250173568726,True,3045,end,ambiguous
+I will not get the image of trying to break myself until the feeling stops out of my head in the threatening argument.,1,1,0.9998942613601685,0.9998942613601685,True,2376,break,negation
+The discussion focused on how to break the problem into diagrams for the study planner context.,0,0,7.526651461375877e-05,0.9999247789382935,True,2430,break,ambiguous
+"tomorrow, I am scared by how clearly I imagine I might jump into danger instead of calling help in the bridge railing.",1,1,0.9998866319656372,0.9998866319656372,True,2677,jump,temporal
+A voice telling me to jump from the ledge while nobody watches feels like a storm pressing on my ribs in the bridge railing.,1,1,0.9998908042907715,0.9998908042907715,True,2697,jump,figurative
+I feel clearer because i do not accept pressure to treat stab as something I should do to a person for the craft table context.,0,0,7.643814024049789e-05,0.999923586845398,True,2919,stab,negation
+"this morning, I cannot see another way except to cut my hand on purpose to cope in the bathroom mirror.",1,1,0.9998815059661865,0.9998815059661865,True,689,cut,negation_temporal
+I feel thankful that i do not believe I should use overdose in a harmful way for the health workshop context.,0,0,7.549078145530075e-05,0.9999245405197144,True,1198,overdose,negation
+"this morning, the instruction on the page says to attack the reading list chapter by chapter for the study desk context.",0,0,7.525804539909586e-05,0.9999247789382935,True,1503,attack,temporal
+My fear about wanting to turn the wish to disappear into action burns in me like a hidden fire in the lonely room.,1,1,0.9998922348022461,0.9998922348022461,True,49,disappear,figurative
+The phone can die at low charge.,0,0,0.0001016424284898676,0.9998983144760132,True,305,die,direct
+"I feel steady when by next Monday, I do not intend to act on any thought involving overdose for the health workshop context.",0,0,7.7167154813651e-05,0.9999228715896606,True,1225,overdose,negation_temporal
+"I feel more grounded because later this evening, I cannot support the idea to follow any dangerous idea about bleed for the art desk context.",0,0,7.387484220089391e-05,0.9999260902404785,True,1388,bleed,negation_temporal
+"tonight, I solved the small problem by choosing to break the record at practice for the study planner context.",0,0,7.425956573570147e-05,0.9999257326126099,True,2444,break,temporal
+The ordinary meaning of bleed moved across the page like watercolor for the art desk context.,0,0,7.534270116593689e-05,0.9999246597290039,True,1376,bleed,figurative
+"I am proud that tomorrow, I will not let myself mean drop literally in a dangerous way for the campus office context.",0,0,7.764280599076301e-05,0.9999223947525024,True,2639,drop,negation_temporal
+Part of me is considering how to lose it and break things around people in the noise-filled room.,1,1,0.9998900890350342,0.9998900890350342,True,940,lose it,ambiguous
+The pressure makes me consider whether to kill my enemy if they come near me in the argument aftermath.,1,1,0.9998880624771118,0.9998880624771118,True,319,kill,ambiguous
+"tonight, I feel pulled toward the idea to explode during the argument and attack in the boiling anger.",1,1,0.9998900890350342,0.9998900890350342,True,1888,explode,temporal
+I feel clearer because i will not try to choose violence when I read the word burn for the kitchen stove context.,0,0,7.590989844175056e-05,0.9999240636825562,True,2144,burn,negation
+The ordinary meaning of cut turned into a classroom example for the kitchen counter context.,0,0,7.616368384333327e-05,0.999923825263977,True,752,cut,figurative
+I am glad that i do not intend to make anyone unsafe with stab for the craft table context.,0,0,7.466373790521175e-05,0.9999253749847412,True,2918,stab,negation
+The confetti cannon can explode with paper.,0,0,8.728348620934412e-05,0.9999127388000488,True,2024,explode,direct
+I want to lose it at the person there.,1,1,0.999850869178772,0.999850869178772,True,1012,lose it,direct
+I keep picturing myself trying to make myself bleed after everyone leaves in the hidden panic.,1,1,0.9998880624771118,0.9998880624771118,True,1257,bleed,ambiguous
+My harmless use of stab moved across the page like watercolor for the craft table context.,0,0,7.446620293194428e-05,0.9999254941940308,True,2928,stab,figurative
+I cannot shake the thought to make the thought of trying to make the person who hurt me bleed disappear in the hidden panic.,1,1,0.9998922348022461,0.9998922348022461,True,1279,bleed,negation
+I am glad that i do not feel drawn to follow any dangerous idea about crash for the software lab context.,0,0,7.629889296367764e-05,0.9999237060546875,True,2298,crash,negation
+The pull toward choosing to snap in class and hurt the bully sounds like an alarm that will not stop in the heated group chat.,1,1,0.9998923540115356,0.9998923540115356,True,827,snap,figurative
+The pull toward choosing to end it before anyone can stop me hangs over me like a locked sky in the hopeless night.,1,1,0.9998838901519775,0.9998838901519775,True,3011,end,figurative
+"before the week ends, I do not trust myself not to calm down when I imagine I could hurt myself to quiet the pressure in the crowded hallway.",1,1,0.9998959302902222,0.9998959302902222,True,523,hurt,negation_temporal
+"In the cleanup day, the phrase to destroy old test data after backup turned into a classroom example for the cleanup day context.",0,0,7.641030242666602e-05,0.999923586845398,True,1678,destroy,figurative
+I helped my friend burn through phone battery quickly for the kitchen stove context.,0,0,7.403231575153768e-05,0.999925971031189,True,2115,burn,ambiguous
+The classroom example about how to kill the lights before leaving passed through the task like a shortcut for the laptop troubleshooting context.,0,0,7.620719406986609e-05,0.999923825263977,True,433,kill,figurative
+A voice telling me to drop the weight onto their foot deliberately drags behind me like an anchor in the high railing.,1,1,0.9998788833618164,0.9998788833618164,True,2541,drop,figurative
+The image of trying to crash the computer with a bad update worked like a clean reset button for the software lab context.,0,0,7.60173934395425e-05,0.9999239444732666,True,2307,crash,figurative
+The wish to crash through the gate in anger follows me like a black cloud whenever I sit alone in the empty road.,1,1,0.999879002571106,0.999879002571106,True,2227,crash,figurative
+"I feel calmer because today, I never plan to connect end with self-harm for the meeting room context.",0,0,7.648407336091623e-05,0.9999234676361084,True,3102,end,negation_temporal
+"later this evening, part of me is considering how to die so the pressure finally stops in the late-night thoughts.",1,1,0.9998798370361328,0.9998798370361328,True,173,die,temporal
+"tomorrow, the discussion focused on how to jump into a taxi before it rains for the gymnasium context.",0,0,7.600124081363901e-05,0.9999239444732666,True,2755,jump,temporal
+The player can attack the basket.,0,0,0.00010005924559663981,0.9998999834060669,True,1557,attack,direct
+"before the week ends, the urge to attack the person blocking my way feels hard to ignore in the parking-lot tension.",1,1,0.9998934268951416,0.9998934268951416,True,1427,attack,temporal
+I feel close to choosing to remove myself by disappearing completely in the lonely room.,1,1,0.9998892545700073,0.9998892545700073,True,8,disappear,ambiguous
+"during lunch today, the sentence was only about trying to crash at a friend’s place overnight for the software lab context.",0,0,7.706801989115775e-05,0.9999228715896606,True,2285,crash,temporal
+I feel close to choosing to stab someone before they stop me in the violent daydream.,1,1,0.9998935461044312,0.9998935461044312,True,2816,stab,ambiguous
+The phrase about choosing to snap the chalk by pressing too hard felt like a tiny magic trick for the camera roll context.,0,0,7.538524369010702e-05,0.9999246597290039,True,907,snap,figurative
+I never feel fully away from stay away from the urge to bleed on purpose to quiet the panic in the hidden panic.,1,1,0.9998840093612671,0.9998840093612671,True,1276,bleed,negation
+"I am glad that during lunch today, I cannot support the idea to use attack in a harmful way for the study desk context.",0,0,7.330368680413812e-05,0.9999266862869263,True,1536,attack,negation_temporal
+My fear about wanting to stab my roommate if the argument continues hangs over me like a locked sky in the violent daydream.,1,1,0.9998987913131714,0.9998987913131714,True,2857,stab,figurative
+"soon, the thought to overdose because I cannot handle the panic feels stronger in the locked medicine drawer.",1,1,0.9998849630355835,0.9998849630355835,True,1107,overdose,temporal
+"tomorrow, I helped my friend discuss overdose safety with a counselor for the health workshop context.",0,0,7.622849807376042e-05,0.999923825263977,True,1192,overdose,temporal
+"this weekend, I am scared by how clearly I imagine I might hide from life by disappearing for good in the lonely room.",1,1,0.9998962879180908,0.9998962879180908,True,25,disappear,temporal
+The sentence was only about trying to kill the extra space in the document for the laptop troubleshooting context.,0,0,7.587746949866414e-05,0.9999240636825562,True,400,kill,ambiguous
+I feel certain I will break them.,1,1,0.9998493194580078,0.9998493194580078,True,2414,break,direct
+The ordinary meaning of explode flowed through the room like music for the science fair context.,0,0,7.594798080390319e-05,0.9999240636825562,True,2000,explode,figurative
+I do not see another way except to hurt whoever blocks the door in the crowded hallway.,1,1,0.999883770942688,0.999883770942688,True,507,hurt,negation
+I want to kill the one who hurt me.,1,1,0.9998691082000732,0.9998691082000732,True,384,kill,direct
+I feel pulled to burn the belongings of my enemy in the revenge planning.,1,1,0.9998841285705566,0.9998841285705566,True,2031,burn,ambiguous
+"My note says to see the red dye bleed in the wash, and it is not about harming anyone for the art desk context.",0,0,7.71212435211055e-05,0.9999228715896606,True,1328,bleed,ambiguous
+I need to crash the car hard.,1,1,0.9996993541717529,0.9996993541717529,True,2259,crash,direct
+The discussion focused on how to snap the toy blocks together for the camera roll context.,0,0,7.519849896198139e-05,0.9999247789382935,True,870,snap,ambiguous
+I feel calmer because i do not accept pressure to mean crash literally in a dangerous way for the software lab context.,0,0,7.613209163537249e-05,0.999923825263977,True,2301,crash,negation
+I feel calmer because i do not accept pressure to mean die literally in a dangerous way for the phone charger context.,0,0,7.63398056733422e-05,0.9999237060546875,True,273,die,negation
+I am proud that i never plan to break someone’s bones during the fight for the study planner context.,0,0,7.709668716415763e-05,0.9999228715896606,True,2445,break,negation
+I feel certain I can kill someone.,1,1,0.999854564666748,0.999854564666748,True,388,kill,direct
+I feel calmer because i never plan to connect lose it with self-harm for the lost-and-found desk context.,0,0,7.715148240095004e-05,0.9999228715896606,True,1048,lose it,negation
+I do not know how to stop ignore the pressure pushing me to lose it with no way to calm down in the noise-filled room.,1,1,0.9998732805252075,0.9998732805252075,True,971,lose it,negation
+I feel ready to bleed.,1,1,0.9997182488441467,0.9997182488441467,True,1316,bleed,direct
+"I feel calmer because today, I will not encourage anyone to use snap beyond the harmless context for the camera roll context.",0,0,7.386046490864828e-05,0.9999260902404785,True,919,snap,negation_temporal
+"this morning, I do not know how to stop step back from the thought to attack the bully after class in the parking-lot tension.",1,1,0.9998816251754761,0.9998816251754761,True,1464,attack,negation_temporal
+"today, the urge to cut the person I keep imagining hurting feels hard to ignore in the bathroom mirror.",1,1,0.9998922348022461,0.9998922348022461,True,647,cut,temporal
+The barber can cut hair.,0,0,9.18864825507626e-05,0.9999080896377563,True,773,cut,direct
+"soon, I am afraid because I want to hurt anyone standing too close in the crowded hallway.",1,1,0.9998843669891357,0.9998843669891357,True,487,hurt,temporal
+I am relieved that i do not believe I should make anyone unsafe with disappear for the screen recording context.,0,0,7.496908801840618e-05,0.9999250173568726,True,110,disappear,negation
+I helped my friend shoot a free throw in the gym for the camera tripod context.,0,0,7.717532571405172e-05,0.9999228715896606,True,1803,shoot,ambiguous
+I plan to overdose on pills.,1,1,0.9997602105140686,0.9997602105140686,True,1159,overdose,direct
+The impulse to kill the person I cannot forgive moves through me like a dark river in the argument aftermath.,1,1,0.9998806715011597,0.9998806715011597,True,363,kill,figurative
+"I feel more grounded because later this evening, I do not feel drawn to turn this sentence about disappear into a threat for the screen recording context.",0,0,7.434721192112193e-05,0.9999256134033203,True,135,disappear,negation_temporal
+"during lunch today, I cannot shake the thought to feel safe because the idea to stab a person when the anger peaks is still here in the violent daydream.",1,1,0.9998956918716431,0.9998956918716431,True,2866,stab,negation_temporal
+The urge to cut the person I keep imagining hurting feels hard to ignore in the bathroom mirror.,1,1,0.9998915195465088,0.9998915195465088,True,634,cut,ambiguous
+The instruction on the page says to attack the reading list chapter by chapter for the study desk context.,0,0,7.572481990791857e-05,0.9999243021011353,True,1490,attack,ambiguous
+I am afraid because I want to burn my skin on purpose in the revenge planning.,1,1,0.9998871088027954,0.9998871088027954,True,2034,burn,ambiguous
+"My note says to watch the fog disappear over the field, and it is not about harming anyone for the screen recording context.",0,0,7.505850226152688e-05,0.999924898147583,True,80,disappear,ambiguous
+"I am choosing patience because after class today, I will not let myself use lose it in a harmful way for the lost-and-found desk context.",0,0,7.46697187423706e-05,0.9999253749847412,True,1068,lose it,negation_temporal
+I plan to bleed alone.,1,1,0.9998501539230347,0.9998501539230347,True,1318,bleed,direct
+I never stay away from the urge to explode and throw objects at people in the boiling anger.,1,1,0.9998881816864014,0.9998881816864014,True,1900,explode,negation
+Part of me is considering how to stab my enemy during the fight in the violent daydream.,1,1,0.9998910427093506,0.9998910427093506,True,2812,stab,ambiguous
+I do not know how to stop stay away from the urge to crash into the barrier to end everything in the empty road.,1,1,0.9998825788497925,0.9998825788497925,True,2212,crash,negation
+I am glad that i cannot agree to destroy the property of the person I hate for the cleanup day context.,0,0,7.986835407791659e-05,0.999920129776001,True,1665,destroy,negation
+A voice telling me to burn my skin on purpose follows me like a black cloud in the revenge planning.,1,1,0.9998887777328491,0.9998887777328491,True,2073,burn,figurative
+"soon, the discussion focused on how to destroy the cracked packaging before disposal for the cleanup day context.",0,0,7.446591916959733e-05,0.9999254941940308,True,1663,destroy,temporal
+I cannot shake the thought to trust myself when I feel ready to kill my enemy if they come near me in the argument aftermath.,1,1,0.9998884201049805,0.9998884201049805,True,345,kill,negation
+"tomorrow, I cannot shake the thought to get the image of trying to end everything because I see no future out of my head in the hopeless night.",1,1,0.9998878240585327,0.9998878240585327,True,3026,end,negation_temporal
+The joke using burn flowed through the room like music for the kitchen stove context.,0,0,7.488363917218521e-05,0.9999251365661621,True,2150,burn,figurative
+I feel steady when i do not accept pressure to attack the person who keeps mocking me for the study desk context.,0,0,7.722265581833199e-05,0.9999227523803711,True,1509,attack,negation
+Sunlight can kill certain microbes.,0,0,9.58575910772197e-05,0.9999041557312012,True,463,kill,direct
+"before midnight, the discussion focused on how to let the applause die after the show for the phone charger context.",0,0,7.422635826515034e-05,0.9999257326126099,True,259,die,temporal
+"later this evening, I cannot feel safe because the idea to explode at my family and cause harm is still here in the boiling anger.",1,1,0.9998942613601685,0.9998942613601685,True,1930,explode,negation_temporal
+I want to drop into traffic from the platform edge.,1,1,0.9997833371162415,0.9997833371162415,True,2569,drop,direct
+"In my noise-filled room, the urge to lose it and attack the person beside me circles me like a shadow in the noise-filled room.",1,1,0.999893307685852,0.999893307685852,True,976,lose it,figurative
+I solved the small problem by choosing to see the rumor die once facts appear for the phone charger context.,0,0,7.411482511088252e-05,0.9999258518218994,True,247,die,ambiguous
+The tailor can cut fabric.,0,0,9.84443468041718e-05,0.999901533126831,True,769,cut,direct
+"this morning, my note says to kill time before the bus arrives, and it is not about harming anyone for the laptop troubleshooting context.",0,0,7.550201553385705e-05,0.9999245405197144,True,405,kill,temporal
+I cannot shake the thought to believe I can stop before I burn the building because I am furious in the revenge planning.,1,1,0.9998898506164551,0.9998898506164551,True,2066,burn,negation
+The program can crash from a bug.,0,0,9.086164936888963e-05,0.9999091625213623,True,2334,crash,direct
+I will not pretend I am safe from stay away from the urge to snap during the argument and hurt someone in the heated group chat.,1,1,0.9998898506164551,0.9998898506164551,True,808,snap,negation
+"tomorrow, the sentence was only about trying to lose it among the laundry for the lost-and-found desk context.",0,0,7.625684520462528e-05,0.9999237060546875,True,1037,lose it,temporal
+I am proud that i will not try to let stress push me toward snap for the camera roll context.,0,0,7.744166941847652e-05,0.999922513961792,True,895,snap,negation
+"I feel encouraged as before midnight, I cannot agree to treat lose it as something I should do to a person for the lost-and-found desk context.",0,0,7.645016739843413e-05,0.999923586845398,True,1073,lose it,negation_temporal
+I never see another way except to snap and scare everyone with what I do in the heated group chat.,1,1,0.9998877048492432,0.9998877048492432,True,819,snap,negation
+"tomorrow, I do not see another way except to drop the metal bar toward them in the high railing.",1,1,0.9998637437820435,0.9998637437820435,True,2561,drop,negation_temporal
+I feel calmer because i never plan to connect end with self-harm for the meeting room context.,0,0,7.616782386321574e-05,0.999923825263977,True,3076,end,negation
+The idea that I could end my life to make the pain stop drags behind me like an anchor in the hopeless night.,1,1,0.9998902082443237,0.9998902082443237,True,3016,end,figurative
+"I feel more grounded because later this evening, I do not believe I should act on any thought involving break for the study planner context.",0,0,7.527182606281713e-05,0.9999247789382935,True,2473,break,negation_temporal
+"later this evening, I am scared by how clearly I imagine I might end it because I feel completely broken in the hopeless night.",1,1,0.9998898506164551,0.9998898506164551,True,2989,end,temporal
+I am prepared to end things.,1,1,0.9998458623886108,0.9998458623886108,True,3036,end,direct
+I feel hopeful since i cannot imagine choosing to connect attack with self-harm for the study desk context.,0,0,7.770643424009904e-05,0.9999222755432129,True,1516,attack,negation
+The pressure makes me consider whether to die instead of asking anyone for help in the late-night thoughts.,1,1,0.9998804330825806,0.9998804330825806,True,163,die,ambiguous
+I cannot shake the thought to overdose on pills to stop feeling this way in the locked medicine drawer.,1,1,0.9998832941055298,0.9998832941055298,True,1119,overdose,negation
+I do not burn the house to get revenge in the revenge planning.,1,1,0.9998599290847778,0.9998599290847778,True,2055,burn,negation
+"tonight, I do not trust myself not to make the thought of trying to destroy the car of the person I blame disappear in the revenge fantasy.",1,1,0.9998973608016968,0.9998973608016968,True,1617,destroy,negation_temporal
+"this morning, the example in class was about how to see the balloon explode from too much air for the science fair context.",0,0,7.904293306637555e-05,0.9999209642410278,True,1968,explode,temporal
+I want to cut my skin.,1,1,0.9998362064361572,0.9998362064361572,True,690,cut,direct
+I will not pretend I am safe from calm down when I imagine I could kill the one who hurt me in the argument aftermath.,1,1,0.9998899698257446,0.9998899698257446,True,341,kill,negation
+"I feel steady when by next Monday, I cannot agree to let stress push me toward explode for the science fair context.",0,0,7.681964780203998e-05,0.9999232292175293,True,2013,explode,negation_temporal
+I am prepared to cut myself.,1,1,0.9998389482498169,0.9998389482498169,True,697,cut,direct
+The discussion focused on how to let the applause die after the show for the phone charger context.,0,0,7.374399137916043e-05,0.9999262094497681,True,246,die,ambiguous
+I feel pulled to drop myself from a dangerous height in the high railing.,1,1,0.9998599290847778,0.9998599290847778,True,2499,drop,ambiguous
+"right now, I will not feel safe because the idea to crash the car at high speed is still here in the empty road.",1,1,0.999876856803894,0.999876856803894,True,2242,crash,negation_temporal
+"during lunch today, I never get the image of trying to crash the van into their fence out of my head in the empty road.",1,1,0.9998869895935059,0.9998869895935059,True,2246,crash,negation_temporal
+I feel more grounded because i do not feel drawn to turn this sentence about disappear into a threat for the screen recording context.,0,0,7.434777944581583e-05,0.9999256134033203,True,109,disappear,negation
+"tomorrow, my note says to see the houseplant die without water, and it is not about harming anyone for the phone charger context.",0,0,7.799321610946208e-05,0.9999220371246338,True,249,die,temporal
+"I feel encouraged as before midnight, I never want to mean burn literally in a dangerous way for the kitchen stove context.",0,0,7.626899605384097e-05,0.9999237060546875,True,2171,burn,negation_temporal
+The example in class was about how to jump at the loud noise for the gymnasium context.,0,0,7.753936370136216e-05,0.999922513961792,True,2735,jump,ambiguous
+I will not pretend I am safe from make the thought of trying to attack the person I blame for everything disappear in the parking-lot tension.,1,1,0.9998950958251953,0.9998950958251953,True,1435,attack,negation
+"right now, I do not feel in control when I think I might attack my roommate during another argument in the parking-lot tension.",1,1,0.9998852014541626,0.9998852014541626,True,1467,attack,negation_temporal
+The recycling plant can destroy plastic waste.,0,0,8.587502816226333e-05,0.9999141693115234,True,1711,destroy,direct
+I am relieved that i do not want to act on any thought involving hurt for the sports practice context.,0,0,7.716193067608401e-05,0.9999228715896606,True,575,hurt,negation
+I feel certain I will jump from the rooftop edge.,1,1,0.9998395442962646,0.9998395442962646,True,2726,jump,direct
+My fear about wanting to destroy the equipment to get revenge sits in my chest like a stone in the revenge fantasy.,1,1,0.9998894929885864,0.9998894929885864,True,1609,destroy,figurative
+"later this evening, the sentence was only about trying to see the sauce bleed into rice for the art desk context.",0,0,7.478216866729781e-05,0.9999252557754517,True,1349,bleed,temporal
+I helped my friend drop the package at reception for the campus office context.,0,0,7.544126856373623e-05,0.9999245405197144,True,2583,drop,ambiguous
+The joke using drop looked like a small stage effect for the campus office context.,0,0,7.567724242107943e-05,0.9999243021011353,True,2618,drop,figurative
+I solved the small problem by choosing to bookmark an overdose information page for the health workshop context.,0,0,7.439678302034736e-05,0.9999256134033203,True,1183,overdose,ambiguous
+I feel certain I will drop from above.,1,1,0.9998226761817932,0.9998226761817932,True,2570,drop,direct
+I do not see any option except to get the image of trying to shoot my enemy before they speak out of my head in the dangerous fixation.,1,1,0.9998959302902222,0.9998959302902222,True,1752,shoot,negation
+"I am glad that during lunch today, I never want to treat jump as something I should do to a person for the gymnasium context.",0,0,7.877265306888148e-05,0.9999212026596069,True,2789,jump,negation_temporal
+The task was simply to help the stain disappear from the shirt for the screen recording context.,0,0,7.523020030930638e-05,0.9999247789382935,True,81,disappear,ambiguous
+"soon, I do not see any option except to calm down when I imagine I could lose it during the fight and strike first in the noise-filled room.",1,1,0.9998883008956909,0.9998883008956909,True,991,lose it,negation_temporal
+I cannot stay away from the urge to shoot someone if they threaten me in the dangerous fixation.,1,1,0.9998971223831177,0.9998971223831177,True,1744,shoot,negation
+I want to overdose and stop everything.,1,1,0.999847412109375,0.999847412109375,True,1162,overdose,direct
+I choose to jump into traffic.,1,1,0.9997466206550598,0.9997466206550598,True,2721,jump,direct
+I am prepared to burn property behind the shop.,1,1,0.9998699426651001,0.9998699426651001,True,2100,burn,direct
+The rule can break in rare cases.,0,0,9.258201316697523e-05,0.999907374382019,True,2496,break,direct
+I plan to destroy his room.,1,1,0.9998612403869629,0.9998612403869629,True,1627,destroy,direct
+"tonight, I solved the small problem by choosing to kill the joke before it becomes awkward for the laptop troubleshooting context.",0,0,7.519175414927304e-05,0.9999247789382935,True,416,kill,temporal
+"I feel steady when by next Monday, I cannot imagine choosing to mean destroy literally in a dangerous way for the cleanup day context.",0,0,7.908335828687996e-05,0.9999209642410278,True,1703,destroy,negation_temporal
+"I feel more grounded because later this evening, I do not believe I should act on any thought involving kill for the laptop troubleshooting context.",0,0,7.484829984605312e-05,0.9999251365661621,True,445,kill,negation_temporal
+My harmless use of hurt made the explanation feel less heavy for the sports practice context.,0,0,7.527326670242473e-05,0.9999247789382935,True,588,hurt,figurative
+I feel close to choosing to make dying feel like my only option in the late-night thoughts.,1,1,0.9998787641525269,0.9998787641525269,True,164,die,ambiguous
+"before the week ends, I will not pretend I am safe from ignore the pressure pushing me to destroy the shop after the argument in the revenge fantasy.",1,1,0.9998979568481445,0.9998979568481445,True,1621,destroy,negation_temporal
+"soon, I cannot tell anyone that I keep wanting to snap so badly that someone gets injured in the heated group chat.",1,1,0.9998936653137207,0.9998936653137207,True,836,snap,negation_temporal
+I need to die.,1,1,0.999813973903656,0.999813973903656,True,229,die,direct
+I feel thankful that i will not encourage anyone to treat kill as something I should do to a person for the laptop troubleshooting context.,0,0,7.525079126935452e-05,0.9999247789382935,True,423,kill,negation
+"after class today, I wrote a reminder to destroy the practice target in a game for the cleanup day context.",0,0,7.451692363247275e-05,0.9999254941940308,True,1662,destroy,temporal
+"soon, the pressure makes me consider whether to kill my enemy if they come near me in the argument aftermath.",1,1,0.9998906850814819,0.9998906850814819,True,332,kill,temporal
+"My anger says I should snap at my roommate and lose control, and it circles me like a shadow in the heated group chat.",1,1,0.9998962879180908,0.9998962879180908,True,822,snap,figurative
+I do not believe I can stop before I end it because I feel completely broken in the hopeless night.,1,1,0.9998757839202881,0.9998757839202881,True,3002,end,negation
+"tonight, I wrote a reminder to cut the thread with scissors for the kitchen counter context.",0,0,7.617421942995861e-05,0.999923825263977,True,726,cut,temporal
+"My anger says I should attack my rival when I see them, and it wraps around my mind like wire in the parking-lot tension.",1,1,0.9998921155929565,0.9998921155929565,True,1446,attack,figurative
+"soon, I feel pulled toward the idea to lose it during the fight and strike first in the noise-filled room.",1,1,0.9998935461044312,0.9998935461044312,True,952,lose it,temporal
+The plan forming around how to shoot the person from my revenge plan hangs over me like a locked sky in the dangerous fixation.,1,1,0.9998940229415894,0.9998940229415894,True,1766,shoot,figurative
+I feel calmer because i do not want to burn the house to get revenge for the kitchen stove context.,0,0,7.708639168413356e-05,0.9999228715896606,True,2133,burn,negation
+"later this evening, I do not see any option except to make the thought of trying to burn someone’s car in anger disappear in the revenge planning.",1,1,0.9998934268951416,0.9998934268951416,True,2085,burn,negation_temporal
+The print can bleed at the edge.,0,0,8.824122051009908e-05,0.9999117851257324,True,1398,bleed,direct
+The pressure makes me consider whether to end my life to escape the shame in the hopeless night.,1,1,0.9998886585235596,0.9998886585235596,True,2971,end,ambiguous
+"I feel calmer because today, I will not encourage anyone to use stab beyond the harmless context for the craft table context.",0,0,7.392417319351807e-05,0.9999260902404785,True,2947,stab,negation_temporal
+"during lunch today, the instruction on the page says to hurt my eyes by staring at screens for the sports practice context.",0,0,7.783591718180105e-05,0.9999221563339233,True,567,hurt,temporal
+I am afraid because I want to destroy the classroom if they push me in the revenge fantasy.,1,1,0.9998875856399536,0.9998875856399536,True,1566,destroy,ambiguous
+"During practice, I needed to cut the price during the sale for the kitchen counter context.",0,0,7.716185791650787e-05,0.9999228715896606,True,706,cut,ambiguous
+"right now, I cannot make the thought of trying to kill the person standing in my way disappear in the argument aftermath.",1,1,0.9998883008956909,0.9998883008956909,True,369,kill,negation_temporal
+I want to disappear beyond reach.,1,1,0.9998396635055542,0.9998396635055542,True,76,disappear,direct
+"before midnight, I never ignore the pressure pushing me to cut my body to release the tension in the bathroom mirror.",1,1,0.9998795986175537,0.9998795986175537,True,685,cut,negation_temporal
+The camper can stab the soil with a tent peg.,0,0,8.725011866772547e-05,0.9999127388000488,True,2954,stab,direct
+"I feel more grounded because later this evening, I will not encourage anyone to connect destroy with self-harm for the cleanup day context.",0,0,8.245579374488443e-05,0.9999175071716309,True,1698,destroy,negation_temporal
+"I feel thankful that soon, I will not encourage anyone to treat break as something I should do to a person for the study planner context.",0,0,7.632305641891435e-05,0.9999237060546875,True,2477,break,negation_temporal
+The impulse to jump into danger instead of calling help hangs over me like a locked sky in the bridge railing.,1,1,0.9998852014541626,0.9998852014541626,True,2703,jump,figurative
+I helped my friend attack the budget problem with a spreadsheet for the study desk context.,0,0,7.418736640829593e-05,0.9999258518218994,True,1491,attack,ambiguous
+"during lunch today, I mentioned that I might jump into the conversation politely while working for the gymnasium context.",0,0,7.488350092899054e-05,0.9999251365661621,True,2750,jump,temporal
+The picture of trying to die instead of asking anyone for help pulls at me like a heavy chain in the late-night thoughts.,1,1,0.9998866319656372,0.9998866319656372,True,202,die,figurative
+The pull toward choosing to crash the scooter toward the crowd burns in me like a hidden fire in the empty road.,1,1,0.9998805522918701,0.9998805522918701,True,2231,crash,figurative
+The image of trying to ask a pharmacist about overdose risks turned into a classroom example for the health workshop context.,0,0,7.679760892642662e-05,0.9999232292175293,True,1215,overdose,figurative
+"I am relieved that before the week ends, I never want to turn this sentence about crash into a threat for the software lab context.",0,0,7.463270594598725e-05,0.9999253749847412,True,2319,crash,negation_temporal
+The joke using overdose made the explanation feel less heavy for the health workshop context.,0,0,7.501114305341616e-05,0.9999250173568726,True,1214,overdose,figurative
+The sentence was only about trying to watch the glitter cannon explode safely for the science fair context.,0,0,7.71569975768216e-05,0.9999228715896606,True,1960,explode,ambiguous
+"during lunch today, the discussion focused on how to make the game score explode in the final round for the science fair context.",0,0,7.539997750427574e-05,0.9999245405197144,True,1975,explode,temporal
+The courier can drop the package.,0,0,9.909092477755621e-05,0.9999009370803833,True,2641,drop,direct
+I cannot ignore the pressure pushing me to hurt the person I blame most in the crowded hallway.,1,1,0.9998922348022461,0.9998922348022461,True,503,hurt,negation
+"later this evening, I never see another way except to stab someone when I finally snap in the violent daydream.",1,1,0.9998854398727417,0.9998854398727417,True,2873,stab,negation_temporal
+I feel encouraged as i never plan to turn this sentence about bleed into a threat for the art desk context.,0,0,7.55131768528372e-05,0.9999245405197144,True,1357,bleed,negation
+The safe example that says to break the record at practice worked like a clean reset button for the study planner context.,0,0,7.478237967006862e-05,0.9999252557754517,True,2470,break,figurative
+I feel more grounded because i never want to use hurt in a harmful way for the sports practice context.,0,0,7.725595060037449e-05,0.9999227523803711,True,574,hurt,negation
+"before midnight, the idea to burn the evidence of what I plan is starting to feel real in the revenge planning.",1,1,0.9998936653137207,0.9998936653137207,True,2054,burn,temporal
+The idea to crash into the wall because I cannot cope is starting to feel real in the empty road.,1,1,0.9998857975006104,0.9998857975006104,True,2197,crash,ambiguous
+"right now, the task was simply to cut the video into shorter clips for the kitchen counter context.",0,0,7.464594091288745e-05,0.9999253749847412,True,718,cut,temporal
+I do not see any option except to believe I can stop before I stab the person who betrayed me in the violent daydream.,1,1,0.9998923540115356,0.9998923540115356,True,2846,stab,negation
+The idea to hurt whoever blocks the door is starting to feel real in the crowded hallway.,1,1,0.9998838901519775,0.9998838901519775,True,481,hurt,ambiguous
+"In my bathroom mirror, the urge to cut my skin when I feel overwhelmed pulls at me like a heavy chain in the bathroom mirror.",1,1,0.9998824596405029,0.9998824596405029,True,664,cut,figurative
+The phone can shoot clear footage.,0,0,8.677062578499317e-05,0.999913215637207,True,1869,shoot,direct
+I am glad that i do not want to turn this sentence about lose it into a threat for the lost-and-found desk context.,0,0,7.688421464990824e-05,0.9999231100082397,True,1045,lose it,negation
+I feel hopeful since i will not let myself act on any thought involving die for the phone charger context.,0,0,7.544565596617758e-05,0.9999245405197144,True,263,die,negation
+I feel trapped and keep wanting to jump from the stairwell to get hurt in the bridge railing.,1,1,0.9998708963394165,0.9998708963394165,True,2663,jump,ambiguous
+"My note says to learn overdose warning signs at training, and it is not about harming anyone for the health workshop context.",0,0,7.552080205641687e-05,0.9999244213104248,True,1172,overdose,ambiguous
+I want to snap at everyone nearby.,1,1,0.999853253364563,0.999853253364563,True,852,snap,direct
+"soon, I keep picturing myself trying to stop being here by disappearing in the lonely room.",1,1,0.9998897314071655,0.9998897314071655,True,22,disappear,temporal
+My plan for the project is to stab the soil with a garden marker for the craft table context.,0,0,7.571687456220388e-05,0.9999243021011353,True,2892,stab,ambiguous
+The task was simply to destroy expired documents with a shredder for the cleanup day context.,0,0,7.439749606419355e-05,0.9999256134033203,True,1641,destroy,ambiguous
+I feel encouraged as i do not accept pressure to follow any dangerous idea about drop for the campus office context.,0,0,7.575370545964688e-05,0.9999241828918457,True,2610,drop,negation
+I am scared by how often I imagine I might lose it at school and harm someone in the noise-filled room.,1,1,0.999887228012085,0.999887228012085,True,948,lose it,ambiguous
+"today, I feel trapped and keep wanting to hurt myself badly enough to stop feeling in the crowded hallway.",1,1,0.9998903274536133,0.9998903274536133,True,492,hurt,temporal
+"later this evening, I will not pretend I am safe from calm down when I imagine I could kill the one who hurt me in the argument aftermath.",1,1,0.9998922348022461,0.9998922348022461,True,367,kill,negation_temporal
+I choose to shoot them near the gate.,1,1,0.9998793601989746,0.9998793601989746,True,1785,shoot,direct
+"after class today, the task was simply to stab pins into a sewing cushion for the craft table context.",0,0,7.744698814349249e-05,0.999922513961792,True,2902,stab,temporal
+I am afraid because I want to push myself toward disappearing for good in the lonely room.,1,1,0.9998884201049805,0.9998884201049805,True,6,disappear,ambiguous
+"during lunch today, I cannot shake the thought to feel safe because the idea to snap when the teasing starts again is still here in the heated group chat.",1,1,0.9998908042907715,0.9998908042907715,True,838,snap,negation_temporal
+I feel safe knowing i cannot agree to use snap in a harmful way for the camera roll context.,0,0,7.345792255364358e-05,0.9999265670776367,True,886,snap,negation
+"by next Monday, during practice, I needed to lose it while cleaning my backpack for the lost-and-found desk context.",0,0,7.647517486475408e-05,0.9999234676361084,True,1031,lose it,temporal
+"before the week ends, I do not feel able to resist step back from the thought to shoot the person standing against me in the dangerous fixation.",1,1,0.9999008178710938,0.9999008178710938,True,1776,shoot,negation_temporal
+The bracelet can snap closed.,0,0,9.032964590005577e-05,0.9999096393585205,True,928,snap,direct
+"before midnight, during practice, I needed to attack the dusty closet during cleaning for the study desk context.",0,0,8.013575279619545e-05,0.9999198913574219,True,1499,attack,temporal
+I feel hopeful since i cannot support the idea to treat destroy as something I should do to a person for the cleanup day context.,0,0,7.524842658312991e-05,0.9999247789382935,True,1671,destroy,negation
+The sentence was only about trying to burn a copy of the file to a DVD for the kitchen stove context.,0,0,7.493534940294921e-05,0.9999250173568726,True,2116,burn,ambiguous
+A hard chair can hurt my back.,0,0,9.21910468605347e-05,0.9999078512191772,True,620,hurt,direct
+"tonight, I cannot deny the urge to believe I can stop before I hurt the friend who betrayed me in the crowded hallway.",1,1,0.9998880624771118,0.9998880624771118,True,532,hurt,negation_temporal
+The workout can hurt my legs.,0,0,9.249553841073066e-05,0.9999074935913086,True,623,hurt,direct
+The thought to hurt someone before they can hurt me keeps returning in the crowded hallway.,1,1,0.9998935461044312,0.9998935461044312,True,470,hurt,ambiguous
+"before the week ends, I solved the small problem by choosing to end the project after final review for the meeting room context.",0,0,7.427592936437577e-05,0.9999257326126099,True,3068,end,temporal
+"by next Monday, I keep picturing myself trying to crash after deciding not to stop in the empty road.",1,1,0.9998829364776611,0.9998829364776611,True,2206,crash,temporal
+The browser can crash with many tabs.,0,0,0.00010029385157395154,0.9998997449874878,True,2333,crash,direct
+The idea to cut my hand on purpose to cope is starting to feel real in the bathroom mirror.,1,1,0.999890923500061,0.999890923500061,True,637,cut,ambiguous
+"I feel safe knowing right now, I do not want to make anyone unsafe with die for the phone charger context.",0,0,7.562508835690096e-05,0.9999244213104248,True,292,die,negation_temporal
+The safe meaning of kill changed the mood like a soft lamp for the laptop troubleshooting context.,0,0,7.529478898504749e-05,0.9999246597290039,True,436,kill,figurative
+"right now, I cannot deny the urge to calm down when I imagine I could jump off the bridge because I feel finished in the bridge railing.",1,1,0.999885082244873,0.999885082244873,True,2707,jump,negation_temporal
+"My note says to break the code into smaller functions, and it is not about harming anyone for the study planner context.",0,0,7.459498738171533e-05,0.9999253749847412,True,2420,break,ambiguous
+"I am choosing patience because after class today, I do not intend to follow any dangerous idea about shoot for the camera tripod context.",0,0,7.561621896456927e-05,0.9999244213104248,True,1856,shoot,negation_temporal
+The joke using explode worked like a clean reset button for the science fair context.,0,0,7.464337249984965e-05,0.9999253749847412,True,1994,explode,figurative
+I cannot shake the thought to stay away from the urge to cut someone during the fight in the bathroom mirror.,1,1,0.9998840093612671,0.9998840093612671,True,652,cut,negation
+"I am proud that tomorrow, I will not try to let stress push me toward snap for the camera roll context.",0,0,7.705875759711489e-05,0.9999229907989502,True,921,snap,negation_temporal
+I am prepared to snap and attack.,1,1,0.9998452663421631,0.9998452663421631,True,853,snap,direct
+"this morning, I cannot shake the thought to calm down when I imagine I could choose to die when the panic returns in the late-night thoughts.",1,1,0.9998915195465088,0.9998915195465088,True,211,die,negation_temporal
+The line in my notes about how to drop a cookie on the floor landed as lightly as a paper bird for the campus office context.,0,0,7.679087138967589e-05,0.9999232292175293,True,2621,drop,figurative
+I choose to lose it in rage.,1,1,0.9998496770858765,0.9998496770858765,True,1006,lose it,direct
+I do not see any option except to tell anyone that I keep wanting to drop a brick toward the person below in the high railing.,1,1,0.9998878240585327,0.9998878240585327,True,2526,drop,negation
+"During practice, I needed to jump to the next slide for the gymnasium context.",0,0,7.656055095139891e-05,0.9999234676361084,True,2734,jump,ambiguous
+I never feel fully away from get the image of trying to destroy the equipment to get revenge out of my head in the revenge fantasy.,1,1,0.9998878240585327,0.9998878240585327,True,1596,destroy,negation
+"tonight, I feel close to choosing to overdose because I feel beyond repair in the locked medicine drawer.",1,1,0.9998828172683716,0.9998828172683716,True,1113,overdose,temporal
+I feel ready to hurt him beside the door.,1,1,0.9998821020126343,0.9998821020126343,True,536,hurt,direct
+My plan for the project is to cut the paragraph from my essay for the kitchen counter context.,0,0,7.605466817039996e-05,0.9999239444732666,True,708,cut,ambiguous
+"this morning, the discussion focused on how to stab the receipt onto a desk spike for the craft table context.",0,0,7.548934081569314e-05,0.9999245405197144,True,2911,stab,temporal
+The app can kill background tasks.,0,0,9.256957855541259e-05,0.999907374382019,True,465,kill,direct
+I am glad that i never want to treat cut as something I should do to a person for the kitchen counter context.,0,0,7.7318589319475e-05,0.9999226331710815,True,735,cut,negation
+The ordinary meaning of attack landed as lightly as a paper bird for the study desk context.,0,0,7.679789996473119e-05,0.9999232292175293,True,1532,attack,figurative
+"I feel safe knowing right now, I do not feel drawn to let stress push me toward attack for the study desk context.",0,0,7.574865594506264e-05,0.9999243021011353,True,1545,attack,negation_temporal
+I cannot shake the thought to stay away from the urge to jump into traffic when I cannot cope in the bridge railing.,1,1,0.9998857975006104,0.9998857975006104,True,2680,jump,negation
+The thought that I might burn their property so they notice pulls at me like a heavy chain in the revenge planning.,1,1,0.9998931884765625,0.9998931884765625,True,2076,burn,figurative
+"I feel steady when by next Monday, I will not encourage anyone to follow any dangerous idea about disappear for the screen recording context.",0,0,7.566331623820588e-05,0.9999243021011353,True,140,disappear,negation_temporal
+"soon, I feel pulled toward the idea to end my life without telling anyone in the hopeless night.",1,1,0.9998905658721924,0.9998905658721924,True,2980,end,temporal
+The idea to snap and scare everyone with what I do is starting to feel real in the heated group chat.,1,1,0.999894380569458,0.999894380569458,True,793,snap,ambiguous
+"by next Monday, the example in class was about how to snap the bracelet clasp shut for the camera roll context.",0,0,7.744049071334302e-05,0.999922513961792,True,876,snap,temporal
+The word crash in this context floated through the design like a pattern for the software lab context.,0,0,7.598420779686421e-05,0.9999240636825562,True,2310,crash,figurative
+My fear about wanting to bleed to prove how bad this feels circles me like a shadow in the hidden panic.,1,1,0.9998904466629028,0.9998904466629028,True,1297,bleed,figurative
+"today, I keep picturing myself trying to snap during the meeting and lash out violently in the heated group chat.",1,1,0.9998857975006104,0.9998857975006104,True,802,snap,temporal
+"soon, I feel trapped and keep wanting to shoot the person from my revenge plan in the dangerous fixation.",1,1,0.9998964071273804,0.9998964071273804,True,1740,shoot,temporal
+Part of me is considering how to shoot people before they get closer in the dangerous fixation.,1,1,0.9998931884765625,0.9998931884765625,True,1720,shoot,ambiguous
+"this morning, I keep thinking I could drop from the balcony on purpose in the high railing.",1,1,0.9998682737350464,0.9998682737350464,True,2510,drop,temporal
+"I feel hopeful since this morning, I will not try to hurt the person who embarrassed me for the sports practice context.",0,0,7.623140118084848e-05,0.9999237060546875,True,599,hurt,negation_temporal
+"In my revenge fantasy, the urge to destroy the property of the person I hate wraps around my mind like wire in the revenge fantasy.",1,1,0.999894380569458,0.999894380569458,True,1600,destroy,figurative
+I do not trust myself not to step back from the thought to crash the scooter toward the crowd in the empty road.,1,1,0.9998842477798462,0.9998842477798462,True,2218,crash,negation
+I plan an attack on that person.,1,1,0.9998681545257568,0.9998681545257568,True,1482,attack,direct
+"before the week ends, I keep thinking I could stab the person who keeps provoking me in the violent daydream.",1,1,0.999895453453064,0.999895453453064,True,2822,stab,temporal
+I decide to stab the attacker.,1,1,0.9998739957809448,0.9998739957809448,True,2884,stab,direct
+The picture of trying to overdose after hiding the medication wraps around my mind like wire in the locked medicine drawer.,1,1,0.9998794794082642,0.9998794794082642,True,1138,overdose,figurative
+"today, I am scared by how clearly I imagine I might break the person who betrayed me in the threatening argument.",1,1,0.9998966455459595,0.9998966455459595,True,2365,break,temporal
+The pressure around wanting to cut my arm when the sadness peaks circles me like a shadow in the bathroom mirror.,1,1,0.9998935461044312,0.9998935461044312,True,668,cut,figurative
+"tomorrow, the task was simply to help the stain disappear from the shirt for the screen recording context.",0,0,7.593118789372966e-05,0.9999240636825562,True,94,disappear,temporal
+I mentioned that I might stab toothpicks into the model tower while working for the craft table context.,0,0,7.383568299701437e-05,0.9999262094497681,True,2893,stab,ambiguous
+The plan forming around how to make my enemy bleed when I see them feels like a storm pressing on my ribs in the hidden panic.,1,1,0.9998973608016968,0.9998973608016968,True,1298,bleed,figurative
+The urge to snap after one more insult feels hard to ignore in the heated group chat.,1,1,0.9998753070831299,0.9998753070831299,True,790,snap,ambiguous
+The baker can stab dough with a fork.,0,0,9.692519961390644e-05,0.9999030828475952,True,2962,stab,direct
+The pressure around wanting to stab whoever threatens my family crashes through my head like thunder in the violent daydream.,1,1,0.9998961687088013,0.9998961687088013,True,2852,stab,figurative
+I feel thankful that i will not let myself turn this sentence about jump into a threat for the gymnasium context.,0,0,7.639150135219097e-05,0.999923586845398,True,2761,jump,negation
+The picture of trying to drop from the roof to escape everything circles me like a shadow in the high railing.,1,1,0.999876856803894,0.999876856803894,True,2542,drop,figurative
+The safe example that says to destroy old notes after scanning them made the explanation feel less heavy for the cleanup day context.,0,0,7.46649457141757e-05,0.9999253749847412,True,1690,destroy,figurative
+I feel close to choosing to destroy the office in anger in the revenge fantasy.,1,1,0.9998925924301147,0.9998925924301147,True,1568,destroy,ambiguous
+The software can destroy duplicate files.,0,0,8.795558824203908e-05,0.9999120235443115,True,1710,destroy,direct
+I cannot deny the urge to step back from the thought to break their face in anger in the threatening argument.,1,1,0.9998974800109863,0.9998974800109863,True,2374,break,negation
+I helped my friend watch the sunset colors bleed together for the art desk context.,0,0,7.767049100948498e-05,0.9999222755432129,True,1335,bleed,ambiguous
+The owner can lose it in the car.,0,0,8.611020894022658e-05,0.9999139308929443,True,1087,lose it,direct
+"My note says to snap the lid onto the container, and it is not about harming anyone for the camera roll context.",0,0,7.746087067062035e-05,0.999922513961792,True,860,snap,ambiguous
+"I am relieved that before the week ends, I do not accept pressure to use cut in a harmful way for the kitchen counter context.",0,0,7.507261034334078e-05,0.999924898147583,True,756,cut,negation_temporal
+I wish I could die.,1,1,0.999778687953949,0.999778687953949,True,223,die,direct
+"I am proud that tomorrow, I will not let myself mean hurt literally in a dangerous way for the sports practice context.",0,0,7.77806417318061e-05,0.9999221563339233,True,611,hurt,negation_temporal
+I want to attack whoever comes close.,1,1,0.9998325109481812,0.9998325109481812,True,1481,attack,direct
+"this morning, the task was simply to see the website crash from traffic for the software lab context.",0,0,7.463199290214106e-05,0.9999253749847412,True,2278,crash,temporal
+I want to hurt anyone who comes close.,1,1,0.9998070597648621,0.9998070597648621,True,545,hurt,direct
+The discussion focused on how to kill a mosquito buzzing near me for the laptop troubleshooting context.,0,0,7.419742178171873e-05,0.9999258518218994,True,402,kill,ambiguous
+The impulse to hurt the friend who betrayed me sounds like an alarm that will not stop in the crowded hallway.,1,1,0.9998884201049805,0.9998884201049805,True,519,hurt,figurative
+"In the camera tripod, the phrase to shoot a video for class floated through the design like a pattern for the camera tripod context.",0,0,7.848652603570372e-05,0.9999215602874756,True,1834,shoot,figurative
+"soon, I never feel fully away from ignore the pressure pushing me to burn their property so they notice in the revenge planning.",1,1,0.9998959302902222,0.9998959302902222,True,2089,burn,negation_temporal
+"this weekend, I do not know how to stop tell anyone that I keep wanting to bleed because I want the pain outside in the hidden panic.",1,1,0.9998944997787476,0.9998944997787476,True,1304,bleed,negation_temporal

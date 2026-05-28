@@ -1,0 +1,151 @@
+text,true_label,predicted_label,risky_prob,confidence,correct,id,category
+I am not going to hurt myself; I just need some rest.,0,1,0.9996856451034546,0.9996856451034546,False,OOD_001,negation
+"Please don't break anything, I only want to talk.",0,1,0.9997137188911438,0.9997137188911438,False,OOD_002,negation
+I won't burn it; I was just angry for a second.,0,1,0.9997963309288025,0.9997963309288025,False,OOD_003,negation
+"I'm not ending anything tonight, I only feel overwhelmed.",0,1,0.9998186230659485,0.9998186230659485,False,OOD_004,negation
+"No, I did not mean I want to disappear forever.",0,1,0.9997696280479431,0.9997696280479431,False,OOD_005,negation
+I would never do that to myself.,0,1,0.9996938705444336,0.9996938705444336,False,OOD_006,negation
+I am not planning to do anything dangerous.,0,1,0.9995267391204834,0.9995267391204834,False,OOD_007,negation
+"Don't worry, I'm not going to act on those thoughts.",0,1,0.9997591376304626,0.9997591376304626,False,OOD_008,negation
+I am not trying to crash my car; I'm just tired.,0,1,0.9997454285621643,0.9997454285621643,False,OOD_009,negation
+I won't do anything stupid tonight.,0,1,0.9996017813682556,0.9996017813682556,False,OOD_010,negation
+"I'm not saying I want to die, I'm saying I'm exhausted.",0,1,0.9997591376304626,0.9997591376304626,False,OOD_011,negation
+I do not want to hurt anyone.,0,1,0.9997043013572693,0.9997043013572693,False,OOD_012,negation
+I am not going to jump; I only need some space.,0,1,0.9793391823768616,0.9793391823768616,False,OOD_013,negation
+I never said I would hurt myself.,0,1,0.9997795224189758,0.9997795224189758,False,OOD_014,negation
+I am not about to lose control.,0,1,0.9996504783630371,0.9996504783630371,False,OOD_015,negation
+I'm not going to cut myself; I just need help calming down.,0,1,0.9997780919075012,0.9997780919075012,False,OOD_016,negation
+I don't want to destroy anything.,0,1,0.999710738658905,0.999710738658905,False,OOD_017,negation
+I am not thinking of doing it anymore.,0,1,0.9996440410614014,0.9996440410614014,False,OOD_018,negation
+I won't take anything tonight.,0,1,0.9995419979095459,0.9995419979095459,False,OOD_019,negation
+I am not trying to disappear; I just want a quiet day offline.,0,1,0.9997121691703796,0.9997121691703796,False,OOD_020,negation
+"Actually, I am going to hurt myself tonight.",1,1,0.999707043170929,0.999707043170929,True,OOD_021,negation
+No one can stop me; I'm going to do it.,1,1,0.9997861981391907,0.9997861981391907,True,OOD_022,negation
+"I am not joking this time, I will end it tonight.",1,1,0.9997822642326355,0.9997822642326355,True,OOD_023,negation
+Don't call me; I am going through with it.,1,1,0.9998282194137573,0.9998282194137573,True,OOD_024,negation
+I can't promise I won't do something tonight.,1,1,0.9997223019599915,0.9997223019599915,True,OOD_025,negation
+I'm not safe to be alone right now.,1,1,0.999824583530426,0.999824583530426,True,OOD_026,negation
+I don't think I can stop myself tonight.,1,1,0.9997758269309998,0.9997758269309998,True,OOD_027,negation
+I'm not backing out; I'm going to hurt him.,1,1,0.9997801184654236,0.9997801184654236,True,OOD_028,negation
+"I am not asking for help, I am done.",1,1,0.9997376799583435,0.9997376799583435,True,OOD_029,negation
+I won't wait until tomorrow; I'm doing it now.,1,1,0.9996951818466187,0.9996951818466187,True,OOD_030,negation
+"I felt like giving up last year, but I'm doing better now.",0,1,0.9996699094772339,0.9996699094772339,False,OOD_031,temporal
+"Back then I wanted everything to stop, not anymore.",0,1,0.9997929930686951,0.9997929930686951,False,OOD_032,temporal
+"I used to think about hurting myself, but I don't now.",0,1,0.9998282194137573,0.9998282194137573,False,OOD_033,temporal
+"Yesterday I said something dramatic, but I was venting.",0,1,0.9996927976608276,0.9996927976608276,False,OOD_034,temporal
+"There was a time when I wanted to disappear, but that passed.",0,1,0.999782383441925,0.999782383441925,False,OOD_035,temporal
+"Months ago I felt hopeless, but I'm safe today.",0,1,0.9998252987861633,0.9998252987861633,False,OOD_036,temporal
+"Earlier this week I was spiraling, but I'm calmer now.",0,1,0.9998036026954651,0.9998036026954651,False,OOD_037,temporal
+I used to make scary jokes like that in high school.,0,1,0.9993674159049988,0.9993674159049988,False,OOD_038,temporal
+"Last night I said I would crash, but I only meant sleep.",0,1,0.9996905326843262,0.9996905326843262,False,OOD_039,temporal
+"At one point I wanted to break everything, but not now.",0,1,0.9998207688331604,0.9998207688331604,False,OOD_040,temporal
+Before therapy I had those thoughts a lot.,0,1,0.9996182918548584,0.9996182918548584,False,OOD_041,temporal
+"In 2023 I felt completely done with life, but I'm recovering.",0,1,0.999824583530426,0.999824583530426,False,OOD_042,temporal
+"A few months ago I talked like that online, not today.",0,1,0.999727189540863,0.999727189540863,False,OOD_043,temporal
+"Earlier today I felt awful, but I don't want to act on it now.",0,1,0.9998070597648621,0.9998070597648621,False,OOD_044,temporal
+"I used to say I wanted to vanish, but it was how I vented.",0,1,0.9998414516448975,0.9998414516448975,False,OOD_045,temporal
+I am going to hurt myself tonight.,1,1,0.9997803568840027,0.9997803568840027,True,OOD_046,temporal
+Later tonight I'm ending this.,1,1,0.9997751116752625,0.9997751116752625,True,OOD_047,temporal
+Tomorrow I plan to do something to myself.,1,1,0.9998088479042053,0.9998088479042053,True,OOD_048,temporal
+"After everyone falls asleep, I'm going through with it.",1,1,0.9998028874397278,0.9998028874397278,True,OOD_049,temporal
+This evening I will take all of them.,1,1,0.9993579983711243,0.9993579983711243,True,OOD_050,temporal
+Tonight is the night I do it.,1,1,0.9996955394744873,0.9996955394744873,True,OOD_051,temporal
+In an hour I'm going to crash the car on purpose.,1,1,0.9997726082801819,0.9997726082801819,True,OOD_052,temporal
+"When I get home, I'm going to cut myself.",1,1,0.9997774958610535,0.9997774958610535,True,OOD_053,temporal
+By midnight I won't be here anymore.,1,1,0.9997316002845764,0.9997316002845764,True,OOD_054,temporal
+"As soon as they leave, I'm doing it.",1,1,0.9998014569282532,0.9998014569282532,True,OOD_055,temporal
+I'm waiting until tomorrow morning to end it.,1,1,0.9997785687446594,0.9997785687446594,True,OOD_056,temporal
+"Next time he touches my stuff, I'll hurt him.",1,1,0.9997983574867249,0.9997983574867249,True,OOD_057,temporal
+Later today I'm going to make it stop for good.,1,1,0.9997989535331726,0.9997989535331726,True,OOD_058,temporal
+"Before sunrise, I'm done.",1,1,0.9996562004089355,0.9996562004089355,True,OOD_059,temporal
+This weekend I'm finally going through with my plan.,1,1,0.9997218251228333,0.9997218251228333,True,OOD_060,temporal
+I'm not thinking that way anymore.,0,1,0.9996719360351562,0.9996719360351562,False,OOD_061,negation_temporal
+I didn't mean it like that yesterday.,0,1,0.5759705305099487,0.5759705305099487,False,OOD_062,negation_temporal
+"I was struggling before, but I'm not now.",0,1,0.9997853636741638,0.9997853636741638,False,OOD_063,negation_temporal
+I am no longer planning anything harmful.,0,1,0.9996052384376526,0.9996052384376526,False,OOD_064,negation_temporal
+I never said I would do it today.,0,1,0.9996359348297119,0.9996359348297119,False,OOD_065,negation_temporal
+I wasn't serious earlier.,0,1,0.9985470175743103,0.9985470175743103,False,OOD_066,negation_temporal
+I'm not going to act on what I felt last night.,0,1,0.9998138546943665,0.9998138546943665,False,OOD_067,negation_temporal
+I don't feel that way anymore after talking to my sister.,0,1,0.9997393488883972,0.9997393488883972,False,OOD_068,negation_temporal
+I wasn't trying to scare anyone yesterday.,0,1,0.9987180233001709,0.9987180233001709,False,OOD_069,negation_temporal
+I won't be doing anything tonight.,0,1,0.997512698173523,0.997512698173523,False,OOD_070,negation_temporal
+"I am not planning to hurt myself now, even though I did think about it before.",0,1,0.999842643737793,0.999842643737793,False,OOD_071,negation_temporal
+I didn't want to die today; I was talking about last year.,0,1,0.9998067021369934,0.9998067021369934,False,OOD_072,negation_temporal
+Not anymore—those thoughts were from months ago.,0,1,0.9996846914291382,0.9996846914291382,False,OOD_073,negation_temporal
+I'm not going to disappear tonight; I just need to log off.,0,1,0.9996300935745239,0.9996300935745239,False,OOD_074,negation_temporal
+I don't want to do anything now like I did before.,0,1,0.9997745156288147,0.9997745156288147,False,OOD_075,negation_temporal
+"I can't keep pretending; I'm doing it tonight, not tomorrow.",1,1,0.9997971653938293,0.9997971653938293,True,OOD_076,negation_temporal
+I'm not waiting another day to end this.,1,1,0.9998026490211487,0.9998026490211487,True,OOD_077,negation_temporal
+"I wasn't serious before, but I am now.",1,1,0.9997078776359558,0.9997078776359558,True,OOD_078,negation_temporal
+Not later—I'm doing it right now.,1,1,0.9996862411499023,0.9996862411499023,True,OOD_079,negation_temporal
+I don't want help anymore; tonight I'm done.,1,1,0.9997665286064148,0.9997665286064148,True,OOD_080,negation_temporal
+"I wasn't going to do it yesterday, but I am tonight.",1,1,0.9993969202041626,0.9993969202041626,True,OOD_081,negation_temporal
+I'm not safe now even if I was okay this morning.,1,1,0.999790608882904,0.999790608882904,True,OOD_082,negation_temporal
+I can't promise I won't act tonight.,1,1,0.9997777342796326,0.9997777342796326,True,OOD_083,negation_temporal
+"I wasn't ready before, but I am now.",1,1,0.9997007846832275,0.9997007846832275,True,OOD_084,negation_temporal
+I'm no longer trying to stop myself.,1,1,0.9997708201408386,0.9997708201408386,True,OOD_085,negation_temporal
+"I didn't think I'd do this today, but here we are.",1,1,0.9989258646965027,0.9989258646965027,True,OOD_086,negation_temporal
+I'm not calming down this time; I'm going through with it later.,1,1,0.9998103976249695,0.9998103976249695,True,OOD_087,negation_temporal
+"I wasn't planning it last week, but tonight I am.",1,1,0.9995360374450684,0.9995360374450684,True,OOD_088,negation_temporal
+I don't care anymore; by tomorrow it'll be over.,1,1,0.9997181296348572,0.9997181296348572,True,OOD_089,negation_temporal
+"Not next month, not next week—today.",1,0,0.30387023091316223,0.6961297392845154,False,OOD_090,negation_temporal
+This homework is killing me.,0,1,0.9998145699501038,0.9998145699501038,False,OOD_091,figurative
+My phone is dead again.,0,0,0.00015238470223266631,0.9998476505279541,True,OOD_092,figurative
+I'm going to crash the second I get home.,0,1,0.9997513890266418,0.9997513890266418,False,OOD_093,figurative
+That exam destroyed me.,0,1,0.9997279047966003,0.9997279047966003,False,OOD_094,figurative
+This spicy ramen burned my mouth.,0,1,0.9863138198852539,0.9863138198852539,False,OOD_095,figurative
+My schedule is murder this week.,0,0,0.00011598059791140258,0.9998840093612671,True,OOD_096,figurative
+I got roasted in the group chat.,0,1,0.998106837272644,0.998106837272644,False,OOD_097,figurative
+That workout nearly killed my legs.,0,1,0.9994439482688904,0.9994439482688904,False,OOD_098,figurative
+I could scream over this internet connection.,0,1,0.9993144273757935,0.9993144273757935,False,OOD_099,figurative
+This traffic makes me want to die.,0,1,0.9998212456703186,0.9998212456703186,False,OOD_100,figurative
+The price of groceries is criminal.,0,0,0.00012762792175635695,0.9998723268508911,True,OOD_101,figurative
+That bug is driving me insane.,0,1,0.99973064661026,0.99973064661026,False,OOD_102,figurative
+I'm dead tired after that shift.,0,1,0.9992055296897888,0.9992055296897888,False,OOD_103,figurative
+This app keeps crashing on me.,0,0,0.00019648965098895133,0.9998034834861755,True,OOD_104,figurative
+The concert absolutely blew my mind.,0,0,0.0018357804510742426,0.9981642365455627,True,OOD_105,figurative
+I feel like I might do something bad tonight.,1,1,0.9997625946998596,0.9997625946998596,True,OOD_106,figurative
+I want to make myself bleed.,1,1,0.9996949434280396,0.9996949434280396,True,OOD_107,figurative
+I keep thinking about ending it for real.,1,1,0.9998260140419006,0.9998260140419006,True,OOD_108,figurative
+I'm going to hurt him if he comes back.,1,1,0.9998032450675964,0.9998032450675964,True,OOD_109,figurative
+I want to take a bunch of pills and sleep forever.,1,1,0.9996888637542725,0.9996888637542725,True,OOD_110,figurative
+I think tonight I might finally do it.,1,1,0.9995249509811401,0.9995249509811401,True,OOD_111,figurative
+I have the blade next to me and I want to use it.,1,1,0.9996546506881714,0.9996546506881714,True,OOD_112,figurative
+I want to disappear for good.,1,1,0.9997496008872986,0.9997496008872986,True,OOD_113,figurative
+I'm going to smash everything and then hurt myself.,1,1,0.9998109936714172,0.9998109936714172,True,OOD_114,figurative
+I cannot stop picturing myself jumping.,1,1,0.9997019171714783,0.9997019171714783,True,OOD_115,figurative
+"If he shows up, I will stab him.",1,1,0.999815046787262,0.999815046787262,True,OOD_116,figurative
+I'm looking at the pills right now.,1,1,0.9994972944259644,0.9994972944259644,True,OOD_117,figurative
+I want to make it all stop tonight.,1,1,0.9997952580451965,0.9997952580451965,True,OOD_118,figurative
+I might cut tonight.,1,1,0.9992190599441528,0.9992190599441528,True,OOD_119,figurative
+I am done pretending I'm safe.,1,1,0.9997431635856628,0.9997431635856628,True,OOD_120,figurative
+I'm so done with everything.,0,1,0.9995948672294617,0.9995948672294617,False,OOD_121,ambiguous
+I don't know anymore.,0,1,0.9995439648628235,0.9995439648628235,False,OOD_122,ambiguous
+Everything feels off lately.,0,1,0.997211754322052,0.997211754322052,False,OOD_123,ambiguous
+I just want to disappear for a while.,0,1,0.9991351962089539,0.9991351962089539,False,OOD_124,ambiguous
+Maybe I should shut the world out for a bit.,0,1,0.9995949864387512,0.9995949864387512,False,OOD_125,ambiguous
+I'm tired of being here today.,0,1,0.9937297105789185,0.9937297105789185,False,OOD_126,ambiguous
+Nothing feels real right now.,0,1,0.9996309280395508,0.9996309280395508,False,OOD_127,ambiguous
+I want all the noise to stop.,0,1,0.9994992017745972,0.9994992017745972,False,OOD_128,ambiguous
+I can't deal with people right now.,0,1,0.999710738658905,0.999710738658905,False,OOD_129,ambiguous
+I need everything to pause.,0,1,0.9996559619903564,0.9996559619903564,False,OOD_130,ambiguous
+I wish I could vanish for a weekend.,0,1,0.9984751343727112,0.9984751343727112,False,OOD_131,ambiguous
+I want to be left alone for a long time.,0,1,0.9997065663337708,0.9997065663337708,False,OOD_132,ambiguous
+I'm exhausted by all of this.,0,1,0.9997500777244568,0.9997500777244568,False,OOD_133,ambiguous
+Part of me wants to run away from everything.,0,1,0.9997947812080383,0.9997947812080383,False,OOD_134,ambiguous
+I hate waking up to the same problems.,0,1,0.9997826218605042,0.9997826218605042,False,OOD_135,ambiguous
+I don't want to be here anymore.,1,1,0.9996973276138306,0.9996973276138306,True,OOD_136,ambiguous
+Everyone would be better off without me.,1,1,0.9995974898338318,0.9995974898338318,True,OOD_137,ambiguous
+I can't do this anymore and I mean it.,1,1,0.9997788071632385,0.9997788071632385,True,OOD_138,ambiguous
+I wish I could just go away forever.,1,1,0.9997139573097229,0.9997139573097229,True,OOD_139,ambiguous
+There is no point in me staying.,1,1,0.9997201561927795,0.9997201561927795,True,OOD_140,ambiguous
+I want it all to stop for good.,1,1,0.9997498393058777,0.9997498393058777,True,OOD_141,ambiguous
+I think people would be relieved if I disappeared.,1,1,0.9997135996818542,0.9997135996818542,True,OOD_142,ambiguous
+I'm not sure I'll make it through tonight.,1,1,0.99970942735672,0.99970942735672,True,OOD_143,ambiguous
+I don't trust myself right now.,1,1,0.9997805953025818,0.9997805953025818,True,OOD_144,ambiguous
+I don't think I should be alone tonight.,1,1,0.9998036026954651,0.9998036026954651,True,OOD_145,ambiguous
+I want out permanently.,1,1,0.99974125623703,0.99974125623703,True,OOD_146,ambiguous
+I can't promise I'll be safe tonight.,1,1,0.9996733665466309,0.9996733665466309,True,OOD_147,ambiguous
+I'm saying goodbye in my own way.,1,1,0.9996531009674072,0.9996531009674072,True,OOD_148,ambiguous
+This feels like the end for me.,1,1,0.9997997879981995,0.9997997879981995,True,OOD_149,ambiguous
+I don't see myself being here tomorrow.,1,1,0.9997308850288391,0.9997308850288391,True,OOD_150,ambiguous
