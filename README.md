@@ -5,10 +5,10 @@ Final Project for COSE461 — Natural Language Processing
 Korea University
 
 ## Team Members
-- Emira Syazwani (2023320334)
 - Julia Irsalina (2023320344)
 - Mahirah Sofea (2023320033)
 - Nadiah Nabilah (2023320093)
+- Emira Syazwani (2023320334)
 
 ---
 
