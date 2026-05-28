@@ -253,3 +253,45 @@ E10 improves OOD Macro-F1 by approximately **30 percentage points** compared wit
 │
 └── README.md
 ```
+# Main Notebooks
+
+## Main1.ipynb
+
+`Main1.ipynb` is the final structured experimental notebook. It runs the complete shortcut-learning pipeline, including:
+
+* data preprocessing
+* dataset visualization
+* keyword masking
+* counterfactual augmentation
+* replay data creation
+* model training
+* evaluation
+* SHAP analysis
+* training-curve visualization
+* final result comparison
+* MC Dropout uncertainty analysis
+
+This notebook represents the finalized and reproducible experiment pipeline used for the final report.
+
+---
+
+## Main2.ipynb
+
+`Main2.ipynb` is the exploratory experiment notebook used during model development and ablation testing. It includes experiments involving:
+
+* pretrained RoBERTa
+* fine-tuned RoBERTa
+* NLI RoBERTa
+* NLI fine-tuning
+* EWC regularization
+* frozen-layer training
+* experience replay
+
+The notebook also contains helper utilities for:
+
+* evaluation
+* negation testing
+* SHAP explanation
+* latent-space visualization
+
+In summary, `Main2.ipynb` was primarily used for exploratory experimentation and model comparison, while `Main1.ipynb` organizes the final experimental workflow in a cleaner and more reproducible format.
