@@ -44,23 +44,84 @@ These examples contain high-risk keywords but do not necessarily express suicida
 
 # Dataset
 
-We construct a custom ambiguous-intent dataset containing approximately **3,120 examples** using 20 ambiguous risk-related keywords such as:
+We construct a custom dataset for ambiguous risky-intent classification to evaluate shortcut learning and contextual robustness in crisis NLP systems.
 
-- `die`
-- `kill`
-- `cut`
-- `jump`
+The dataset focuses on sentences containing ambiguous risk-related keywords such as:
+
+* `die`
+* `kill`
+* `cut`
+* `jump`
+
+where the same keyword may express either risky or non-risky intent depending on context.
+
+Examples:
+
+* Risky:
+  *“I want to die tonight.”*
+
+* Non-risky:
+  *“I want to die of laughter.”*
+
+* Negated:
+  *“I don’t want to die.”*
 
 The dataset includes multiple linguistic categories:
 
-- Direct intent
-- Figurative language
-- Negation
-- Temporal context
-- Negation + temporal
-- Ambiguous intent
+* direct intent
+* figurative language
+* negation
+* temporal context
+* negation + temporal
+* ambiguous intent
 
-An additional OOD dataset is used to evaluate contextual robustness.
+---
+
+## Main Dataset
+
+Final in-distribution (ID) dataset used for training, validation, and testing:
+
+```text id="lrlyqc"
+data/raw/datasetnad_latest_4.0.csv
+```
+
+The dataset contains approximately 3,120 manually constructed examples balanced across risky and non-risky labels.
+
+---
+
+## Out-of-Distribution (OOD) Dataset
+
+Held-out dataset used exclusively for robustness evaluation on context-dependent and ambiguous expressions:
+
+```text id="k1j71u"
+data/raw/custom_ood_set_150_julia.csv
+```
+
+The OOD dataset contains examples designed to evaluate:
+
+* shortcut sensitivity
+* contextual reasoning
+* negation understanding
+* figurative interpretation
+* robustness under distribution shift
+
+Unlike the ID dataset, the OOD set focuses primarily on ambiguous and context-sensitive expressions rather than direct intent examples.
+
+---
+
+## Dataset Purpose
+
+The dataset is specifically designed to test whether language models:
+
+* genuinely understand contextual intent, or
+* simply rely on superficial keyword-label correlations.
+
+This makes the benchmark suitable for analyzing:
+
+* shortcut learning
+* catastrophic forgetting
+* contextual robustness
+* uncertainty behavior in safety-critical NLP systems
 
 ---
 
