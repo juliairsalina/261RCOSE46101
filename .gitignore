@@ -26,11 +26,9 @@ models/
 checkpoint-*/
 
 # Results / generated outputs
-results/
 results_first/
 
 # Processed generated data
-data/processed/
 
 # Hugging Face / cache
 .cache/
