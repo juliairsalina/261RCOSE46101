@@ -1,6 +1,4 @@
-# Disambiguating Suicidal Intent
-
-## Mitigating Shortcut Learning and Catastrophic Forgetting via LIER
+# Disambiguating Suicidal Intent - Mitigating Shortcut Learning and Catastrophic Forgetting via LIER
 
 Final Project for **COSE461 — Natural Language Processing**  
 Korea University
